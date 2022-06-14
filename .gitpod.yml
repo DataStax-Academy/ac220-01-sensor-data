@@ -1,0 +1,19 @@
+tasks:
+  - name: install-dependencies
+    init: |
+      docker pull cassandra:4
+      pip install -U cqlsh
+    command: | 
+      echo "Wait for Cassandra to start..."
+      docker run -p 9042:9042 -d cassandra:4
+      echo -n 'Waiting for Cassandra to start...'; timeout 60 bash -c 'until cqlsh -e "describe cluster" >/dev/null 2>&1; do sleep 2; echo -n "."; done'; echo ' Ready!'
+      echo "Ready, let's roll!"
+ports:
+  - port: 9042
+    onOpen: ignore  
+github:
+  prebuilds:
+    main: true
+vscode:
+  extensions:
+    - https://github.com/HadesArchitect/katapod/releases/download/0.3.6/katapod-0.3.6.vsix
