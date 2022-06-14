@@ -4,8 +4,8 @@
 ## Explore how IoT sensor data can be stored and queried in Cassandra NoSQL database
 </div>
 
-<div>**Difficulty**: Beginner</div>
-<div>**Time**: 15 minutes</div>
+<div><b>Difficulty</b>: Beginner</div>
+<div><b>Time</b>: 15 minutes</div>
 
 In this scenario, you will:
 
