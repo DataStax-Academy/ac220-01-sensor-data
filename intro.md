@@ -1,11 +1,12 @@
 <div class="top">
 
-# Sensor Data Modeling Example for Cassandra
+# Sensor Data Modeling
 ## Explore how IoT sensor data can be stored and queried in Cassandra NoSQL database
 </div>
 
 <div><b>Difficulty</b>: Beginner</div>
 <div><b>Time</b>: 15 minutes</div>
+<div><b>Prerequisite</b>: [sensor data model](https://www.datastax.com/learn/data-modeling-by-example/sensor-data-model)</div>
 
 **In this scenario, you will:**
 
@@ -13,6 +14,6 @@
 * Populate tables with sample sensor data
 * Design and execute CQL queries over sensor data
 
-_This scenario is also available on our [datastax.com/dev](https://www.datastax.com/learn/data-modeling-by-example/sensor-data-model) site, where you can find many more resources to help you succeed with Apache Cassandra™._
+_This scenario is also available on our [datastax.com/dev](https://www.datastax.com/dev) site, where you can find many more resources to help you succeed with Apache Cassandra™._
 
 [start scenario](command:katapod.loadPage?step1){.orange_bar}
