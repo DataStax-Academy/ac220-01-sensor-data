@@ -7,7 +7,7 @@
 <div><b>Difficulty</b>: Beginner</div>
 <div><b>Time</b>: 15 minutes</div>
 
-In this scenario, you will:
+**In this scenario, you will:**
 
 * Create tables for a sensor data use case 
 * Populate tables with sample sensor data
