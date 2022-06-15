@@ -5,7 +5,8 @@
 </div>
 
 Create the `sensor_data` keyspace:
-```sql
+
+```
 CREATE KEYSPACE sensor_data
 WITH replication = {
   'class': 'NetworkTopologyStrategy', 
@@ -13,8 +14,9 @@ WITH replication = {
 ```
 
 Set the current working keyspace:
-```sql
+
+```
 USE sensor_data;
 ```
 
-[start scenario](command:katapod.loadPage?step2){.orange_bar}
+[continue](command:katapod.loadPage?step2){.orange_bar}
