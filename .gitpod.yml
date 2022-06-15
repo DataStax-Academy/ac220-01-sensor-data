@@ -4,10 +4,7 @@ tasks:
       docker pull cassandra:4
       pip install -U cqlsh
     command: | 
-      echo "Waiting for Cassandra to start..."
       docker run -p 9042:9042 -d cassandra:4
-      echo -n 'Waiting for Cassandra to start...'; timeout 60 bash -c 'until cqlsh -e "describe cluster" >/dev/null 2>&1; do sleep 2; echo -n "."; done'; echo ' Ready!'
-      echo "Ready, let's roll!"
 ports:
   - port: 9042
     onOpen: ignore  
