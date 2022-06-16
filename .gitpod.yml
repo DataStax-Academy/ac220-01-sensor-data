@@ -3,8 +3,15 @@ tasks:
     init: |
       docker pull cassandra:4.0
       pip install -U cqlsh
+      docker run -p 9042:9042 -d \
+                 --name Cassandra \
+                 -v ${PWD}/config/cassandra.yaml:/etc/cassandra/cassandra.yaml \
+                 -v ${PWD}/config/cassandra-rackdc.properties:/etc/cassandra/cassandra-rackdc.properties cassandra:4.0
+      timeout 60 bash -c 'until cqlsh -e "describe cluster" >/dev/null 2>&1; do sleep 1; echo -n "."; done'
+      docker stop Cassandra
     command: | 
       docker run -p 9042:9042 -d \
+                 --name Cassandra \
                  -v ${PWD}/config/cassandra.yaml:/etc/cassandra/cassandra.yaml \
                  -v ${PWD}/config/cassandra-rackdc.properties:/etc/cassandra/cassandra-rackdc.properties cassandra:4.0
 ports:
