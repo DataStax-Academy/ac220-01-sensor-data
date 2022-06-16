@@ -1,3 +1,9 @@
+<div class="top">
+
+# Design query Q4
+### [◂](command:katapod.loadPage?step6){.steps} Step 1 of 7 [▸](command:katapod.loadPage?finish){.steps}
+</div>
+
 Find raw measurements for sensor `s1003` on `2020-07-06`; order by timestamp (desc):
 
 <details>
