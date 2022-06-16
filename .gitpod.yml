@@ -3,12 +3,6 @@ tasks:
     init: |
       docker pull cassandra:4.0
       pip install -U cqlsh
-      docker run -p 9042:9042 -d \
-                 --name Cassandra \
-                 -v ${PWD}/config/cassandra.yaml:/etc/cassandra/cassandra.yaml \
-                 -v ${PWD}/config/cassandra-rackdc.properties:/etc/cassandra/cassandra-rackdc.properties cassandra:4.0
-      sleep 30
-      docker stop Cassandra
     command: | 
       docker run -p 9042:9042 -d \
                  --name Cassandra \
