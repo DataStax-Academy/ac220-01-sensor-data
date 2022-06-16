@@ -4,7 +4,9 @@ tasks:
       docker pull cassandra:4.0
       pip install -U cqlsh
     command: | 
-      docker run -p 9042:9042 -d -v ${PWD}/config/cassandra.yaml:/etc/cassandra/cassandra.yaml -v ${PWD}/config/cassandra-rackdc.properties:/etc/cassandra/cassandra-rackdc.properties cassandra:4.0
+      docker run -p 9042:9042 -d \
+                 -v ${PWD}/config/cassandra.yaml:/etc/cassandra/cassandra.yaml \
+                 -v ${PWD}/config/cassandra-rackdc.properties:/etc/cassandra/cassandra-rackdc.properties cassandra:4.0
 ports:
   - port: 9042
     onOpen: ignore
