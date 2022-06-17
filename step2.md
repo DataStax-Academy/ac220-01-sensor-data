@@ -5,7 +5,7 @@
 </div>
 
 Create table `networks`:
-```sql
+```
 CREATE TABLE networks (
   bucket TEXT,
   name TEXT,
@@ -14,10 +14,10 @@ CREATE TABLE networks (
   num_sensors INT,
   PRIMARY KEY ((bucket),name)
 );
-```{{execute}}
+```
 
 Create table `temperatures_by_network`:
-```sql
+```
 CREATE TABLE temperatures_by_network (
   network TEXT,
   week DATE,
@@ -28,10 +28,10 @@ CREATE TABLE temperatures_by_network (
   longitude DECIMAL,
   PRIMARY KEY ((network,week),date_hour,sensor)
 ) WITH CLUSTERING ORDER BY (date_hour DESC, sensor ASC);
-```{{execute}}
+```
 
 Create table `sensors_by_network`:
-```sql
+```
 CREATE TABLE sensors_by_network (
   network TEXT,
   sensor TEXT,
@@ -40,11 +40,11 @@ CREATE TABLE sensors_by_network (
   characteristics MAP<TEXT,TEXT>,
   PRIMARY KEY ((network),sensor)
 );
-```{{execute}}
+```
 
 
 Create table `temperatures_by_sensor`:
-```sql
+```
 CREATE TABLE temperatures_by_sensor (
   sensor TEXT,
   date DATE,
@@ -52,6 +52,6 @@ CREATE TABLE temperatures_by_sensor (
   value FLOAT,
   PRIMARY KEY ((sensor,date),timestamp)
 ) WITH CLUSTERING ORDER BY (timestamp DESC);
-```{{execute}}
+```
 
 [continue](command:katapod.loadPage?step3){.orange_bar}
