@@ -5,7 +5,6 @@
 </div>
 
 Create the `sensor_data` keyspace:
-
 ```
 CREATE KEYSPACE sensor_data
 WITH replication = {
@@ -14,7 +13,6 @@ WITH replication = {
 ```
 
 Set the current working keyspace:
-
 ```
 USE sensor_data;
 ```
