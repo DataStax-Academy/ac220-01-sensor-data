@@ -30,7 +30,7 @@ order by date (desc) and hour (desc):
 <details>
   <summary>Solution 1</summary>
 
-```sql
+```
 SELECT date_hour, avg_temperature, 
        latitude, longitude, sensor 
 FROM temperatures_by_network
@@ -46,14 +46,14 @@ WHERE network    = 'forest-net'
   AND week       = '2020-06-28'
   AND date_hour >= '2020-07-04'
   AND date_hour  < '2020-07-07';  
-```{{execute}}
+```
 
 </details>
 
 <details>
   <summary>Solution 2</summary>
 
-```sql
+```
 SELECT date_hour, avg_temperature, 
        latitude, longitude, sensor 
 FROM temperatures_by_network
@@ -61,7 +61,7 @@ WHERE network    = 'forest-net'
   AND week      IN ('2020-07-05','2020-06-28')
   AND date_hour >= '2020-07-04'
   AND date_hour  < '2020-07-07';  
-```{{execute}}
+```
 
 </details>
 
