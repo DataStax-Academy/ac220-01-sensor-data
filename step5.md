@@ -64,3 +64,5 @@ WHERE network    = 'forest-net'
 ```{{execute}}
 
 </details>
+
+[continue](command:katapod.loadPage?step6){.orange_bar}

@@ -30,3 +30,5 @@ Retrieve all rows from table `temperatures_by_sensor`:
 ```sql
 SELECT * FROM temperatures_by_sensor; 
 ```{{execute}}
+
+[continue](command:katapod.loadPage?step4){.orange_bar}

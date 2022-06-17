@@ -17,3 +17,4 @@ WHERE network = 'forest-net';
 
 </details>
 
+[continue](command:katapod.loadPage?step7){.orange_bar}

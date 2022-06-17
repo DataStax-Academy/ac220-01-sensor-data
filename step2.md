@@ -53,3 +53,5 @@ CREATE TABLE temperatures_by_sensor (
   PRIMARY KEY ((sensor,date),timestamp)
 ) WITH CLUSTERING ORDER BY (timestamp DESC);
 ```{{execute}}
+
+[continue](command:katapod.loadPage?step3){.orange_bar}

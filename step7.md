@@ -17,3 +17,5 @@ WHERE sensor = 's1003'
 ```{{execute}}
 
 </details>
+
+[continue](command:katapod.loadPage?finish){.orange_bar}

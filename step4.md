@@ -17,3 +17,5 @@ WHERE bucket = 'all';
 ```{{execute}}
 
 </details>
+
+[continue](command:katapod.loadPage?step5){.orange_bar}
