@@ -1,7 +1,6 @@
 <div class="top">
-
-# Sensor Data Modeling
-## Explore how IoT sensor data can be stored and queried in Cassandra NoSQL database
+<h1>Sensor Data Modeling</h1>
+<h2>Explore how IoT sensor data can be stored and queried in Cassandra NoSQL database</h2>
 </div>
 
 <div><b>Difficulty</b>: Beginner</div>
