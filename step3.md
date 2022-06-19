@@ -6,7 +6,7 @@
 
 Execute the CQL script to insert sample data:
 ```
-SOURCE '~/assets/sensor_data.cql'
+SOURCE 'assets/sensor_data.cql'
 ```
 
 Retrieve all rows from table `networks`:
