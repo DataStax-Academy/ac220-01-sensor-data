@@ -6,7 +6,7 @@
 
 <div><b>Difficulty</b>: Beginner</div>
 <div><b>Time</b>: 15 minutes</div>
-<div><b>Prerequisite</b>: <a href="https://www.datastax.com/learn/data-modeling-by-example/sensor-data-model" target="_blank">sensor data model</a></div>
+<div><b>Prerequisite</b>: <a href="https://www.datastax.com/learn/data-modeling-by-example/sensor-data-model" target="_blank">how to create a data model for temperature monitoring sensor networks</a></div>
 
 **In this scenario, you will:**
 
