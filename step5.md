@@ -1,7 +1,7 @@
 <div class="top">
 
 # Design query Q2
-### [◂](command:katapod.loadPage?step4){.steps} Step 1 of 7 [▸](command:katapod.loadPage?step6){.steps}
+### [◂](command:katapod.loadPage?step4){.steps} Step 5 of 7 [▸](command:katapod.loadPage?step6){.steps}
 </div>
 
 Find hourly average temperatures for every sensor in network `forest-net` and date range [`2020-07-05`,`2020-07-06`] within the week of `2020-07-05`; 

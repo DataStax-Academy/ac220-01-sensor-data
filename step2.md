@@ -1,7 +1,7 @@
 <div class="top">
 
 # Create tables
-### [◂](command:katapod.loadPage?step1){.steps} Step 1 of 7 [▸](command:katapod.loadPage?step3){.steps}
+### [◂](command:katapod.loadPage?step1){.steps} Step 2 of 7 [▸](command:katapod.loadPage?step3){.steps}
 </div>
 
 Create table `networks`:

@@ -1,7 +1,7 @@
 <div class="top">
 
 # Design query Q1
-### [◂](command:katapod.loadPage?step3){.steps} Step 1 of 7 [▸](command:katapod.loadPage?step5){.steps}
+### [◂](command:katapod.loadPage?step3){.steps} Step 4 of 7 [▸](command:katapod.loadPage?step5){.steps}
 </div>
 
 Find information about all networks; order by name (asc):

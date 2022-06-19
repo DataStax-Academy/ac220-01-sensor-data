@@ -1,7 +1,7 @@
 <div class="top">
 
 # Populate tables
-### [◂](command:katapod.loadPage?step2){.steps} Step 1 of 7 [▸](command:katapod.loadPage?step4){.steps}
+### [◂](command:katapod.loadPage?step2){.steps} Step 3 of 7 [▸](command:katapod.loadPage?step4){.steps}
 </div>
 
 Execute the CQL script to insert sample data:
