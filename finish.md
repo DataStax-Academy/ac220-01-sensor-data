@@ -11,4 +11,4 @@
 * [Data Modeling by Example](https://www.datastax.com/learn/data-modeling-by-example)
 * [Cassandra Fundamentals](https://datastax.com/learning-series/cassandra-fundamentals)
 
-Try out the **[Astra DB](https://astra.datastax.com/register?utm_source=devplay&utm_medium=katacoda&utm_campaign=try-it-out)** cloud database service built on Apache Cassandra™. 
+Try out our **[Astra DB](https://astra.datastax.com/register?utm_source=devplay&utm_medium=katapod&utm_campaign=data-modeling-by-example)** cloud database service built on Apache Cassandra™. It is easy and free to start!
