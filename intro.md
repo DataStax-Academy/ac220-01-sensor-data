@@ -29,7 +29,7 @@
             <h2>Free Cloud DBaas Datastax Astra</h2>
             <p>Save installation time and reuse databases and data across scenarios. You need to sign up and create an account and generate a token. It is totally free and we will guide you.</p>
             <a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22step1-astra%22%7D%5D" class="btn btn-primary btn-astra">
-              Run with ASTRA
+              Start with ASTRA
             </a>
           </div>
           <div class="feature col div-choice">
@@ -39,7 +39,7 @@
             <h2>Run Locally as a Docker container</h2>
             <p>Docker is already installed. After pulling the image and starting the container (~40s) you will have a full running Cassandra node locally.</p>
             <a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22step1-cassandra%22%7D%5D" class="btn btn-primary btn-astra" class="btn btn-primary" style="background-color:#024BA2;border:0px;float:right">
-              Run with DOCKER
+              Start with DOCKER
             </a>
             </center>
           </div>
