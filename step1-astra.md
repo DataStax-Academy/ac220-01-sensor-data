@@ -43,9 +43,25 @@ gp preview https://awesome-astra.github.io/docs/pages/astra/create-token/
 
 - **✅ Step 1c: Setup your environment**
 
+Configure the shell and initialize the cli with `astra-setup`
+
 ```
+source /home/gitpod/.astra/cli/astra-init.sh
+unset JAVA_TOOL_OPTIONS
 astra setup
 ```
+
+- Copy paste your Astra token as show below.
+
+![](https://github.com/datastax/astra-sdk-java/blob/main/docs/img/astra-shell-config.png?raw=true")
+
+Ok you are good the CLI should work now 
+
+```
+clear
+astra --version
+```
+
 
 - **✅ Step 1d: List your databases**
 
@@ -56,21 +72,37 @@ astra db list
 - **✅ Step 1e: Create a database `ac201` with the keyspace `sensor_data`**
 
 ```
-astra db create demo -k sensor_data --if-not-exist
+astra db create ac201 -k sensor_data --if-not-exist
 ```
 
-- **✅ Step 1e: Wait for the DB be becomes active**
+- **✅ Step 1f: Wait for the DB be becomes active**
+
+If you list again the databases you should see the one you just created.
 
 ```
-astra db get demo | grep Status
+astra db list
 ```
 
-# Start Cqlsh
+You can get the details with 
+
+```
+astra db get ac201
+```
+
+Wait until the Status is `ACTIVE`
+
+```
+astra db get ac201 | grep Status
+```
+
+- **✅ Step 1g: Start CqlSh against keyspace `sensor_data`**
 
 ```
 clear
-astra db cqlsh -k demo
+astra db cqlsh ac201 -k sensor_data
 ```
+
+> If the command above fails that mean the database is not ready yet. Wait a few seconds and retry. A new database will take about 1 min to start, it is a 3 nodes cluster.
 
 <!-- NAVIGATION -->
 <div id="navigation-bottom" style="width:100%;text-align:center;">

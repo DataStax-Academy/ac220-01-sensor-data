@@ -1,12 +1,32 @@
+<!-- TOP -->
 <div class="top">
-
-# Create tables
-### [◂](command:katapod.loadPage?step1){.steps} Step 2 of 7 [▸](command:katapod.loadPage?step3){.steps}
+  <img src="https://datastax-academy.github.io/katapod-shared-assets/images/ds-academy-logo.svg" />
+  <span style="position:absolute;top:20px;left:350px;font-size:30px"><b>Sensor Data Modeling</b></span>
+  <span style="position:absolute;top:80px;left:350px;font-size:12px">ℹ️ You run this scenario using DataStax Katapod platform, which is beta at the moment.</span> 
+  <span style="position:absolute;top:100px;left:350px;font-size:12px">For any kind of questions, issue reports or anything other please contact our team using <a href="mailto:aleksandr.volochnev@datastax.com">email</a> or <a href="https://dtsx.io/aleks">LinkedIn</a></span>
 </div>
 
-Create table `networks`:
+<!-- NAVIGATION -->
+<div id="navigation-top" style="width:100%;text-align:center;margin-top:10px;margin-bottom:30px">
+ <a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22intro%22%7D%5D" 
+   class="btn btn-dark" 
+   style="float:left">⬅️  Introduction
+ </a>
+<span style="font-size:20px;"> Step 2 of 7</span>
+ <a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22step3%22%7D%5D" 
+    class="btn btn-dark" 
+    style="float:right">Step 3 ➡️
+  </a>
+</div>
+
+<!-- CONTENT -->
+
+## Create schema for keyspace `sensor_data`
+
+- **✅ Step 2a: Create table `networks`**
+
 ```
-CREATE TABLE networks (
+CREATE TABLE IF NOT EXISTS networks (
   bucket TEXT,
   name TEXT,
   description TEXT,
@@ -16,9 +36,10 @@ CREATE TABLE networks (
 );
 ```
 
-Create table `temperatures_by_network`:
+- **✅ Step 2b: Create table `temperatures_by_network`**
+
 ```
-CREATE TABLE temperatures_by_network (
+CREATE TABLE IF NOT EXISTS temperatures_by_network (
   network TEXT,
   week DATE,
   date_hour TIMESTAMP,
@@ -30,9 +51,10 @@ CREATE TABLE temperatures_by_network (
 ) WITH CLUSTERING ORDER BY (date_hour DESC, sensor ASC);
 ```
 
-Create table `sensors_by_network`:
+- **✅ Step 2c: Create table `sensors_by_network`**
+
 ```
-CREATE TABLE sensors_by_network (
+CREATE TABLE IF NOT EXISTS  sensors_by_network (
   network TEXT,
   sensor TEXT,
   latitude DECIMAL,
@@ -42,10 +64,10 @@ CREATE TABLE sensors_by_network (
 );
 ```
 
+- **✅ Step 2d: Create table `temperatures_by_sensor`**
 
-Create table `temperatures_by_sensor`:
 ```
-CREATE TABLE temperatures_by_sensor (
+CREATE TABLE IF NOT EXISTS  temperatures_by_sensor (
   sensor TEXT,
   date DATE,
   timestamp TIMESTAMP,
@@ -54,4 +76,16 @@ CREATE TABLE temperatures_by_sensor (
 ) WITH CLUSTERING ORDER BY (timestamp DESC);
 ```
 
-[continue](command:katapod.loadPage?step3){.orange_bar}
+- **✅ Step 2e: Check that the 4 tables are created**
+
+```
+describe tables;
+```
+
+<!-- NAVIGATION -->
+<div id="navigation-bottom" style="width:100%;text-align:center;">
+ <a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22step3%22%7D%5D" 
+    class="btn btn-primary btn-astra" 
+    style="float:right">CONTINUE ➡️
+  </a>
+</div>

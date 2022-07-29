@@ -1,13 +1,33 @@
+<!-- TOP -->
 <div class="top">
-
-# Design query Q2
-### [◂](command:katapod.loadPage?step4){.steps} Step 5 of 7 [▸](command:katapod.loadPage?step6){.steps}
+  <img src="https://datastax-academy.github.io/katapod-shared-assets/images/ds-academy-logo.svg" />
+  <span style="position:absolute;top:20px;left:350px;font-size:30px"><b>Sensor Data Modeling</b></span>
+  <span style="position:absolute;top:80px;left:350px;font-size:12px">ℹ️ You run this scenario using DataStax Katapod platform, which is beta at the moment.</span> 
+  <span style="position:absolute;top:100px;left:350px;font-size:12px">For any kind of questions, issue reports or anything other please contact our team using <a href="mailto:aleksandr.volochnev@datastax.com">email</a> or <a href="https://dtsx.io/aleks">LinkedIn</a></span>
 </div>
 
-Find hourly average temperatures for every sensor in network `forest-net` and date range [`2020-07-05`,`2020-07-06`] within the week of `2020-07-05`; order by date (desc) and hour (desc):
+<!-- NAVIGATION -->
+<div id="navigation-top" style="width:100%;text-align:center;margin-top:10px;margin-bottom:30px">
+ <a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22step4%22%7D%5D" 
+   class="btn btn-dark" 
+   style="float:left">⬅️ Step 4
+ </a>
+<span style="font-size:20px;"> Step 5 of 7</span>
+ <a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22step6%22%7D%5D" 
+    class="btn btn-dark" 
+    style="float:right">Step 6 ➡️
+  </a>
+</div>
+
+
+# Exercise
+
+- **✅ Step 5a: Build a Cql query that matches those requirements**
+
+> Q2: Find hourly average temperatures for every sensor in network `forest-net` and date range [`2020-07-05`,`2020-07-06`] within the week of `2020-07-05`; order by date (desc) and hour (desc):
 
 <details>
-  <summary>Solution</summary>
+  <summary><b style="color:#003882">Show me the Solution for Q2</b></summary>
 
 ```
 SELECT date_hour, avg_temperature, 
@@ -18,15 +38,16 @@ WHERE network    = 'forest-net'
   AND date_hour >= '2020-07-05'
   AND date_hour  < '2020-07-07';
 ```
-
 </details>
 
 <br/>
 
-Find hourly average temperatures for every sensor in network `forest-net` and date range [`2020-07-04`,`2020-07-06`] within the weeks of `2020-06-28` and `2020-07-05`; order by date (desc) and hour (desc):
+- **✅ Step 5b: Build a Cql query that matches those requirements**
+
+> Q3: Find hourly average temperatures for every sensor in network `forest-net` and date range [`2020-07-04`,`2020-07-06`] within the weeks of `2020-06-28` and `2020-07-05`; order by date (desc) and hour (desc):
 
 <details>
-  <summary>Solution 1</summary>
+  <summary><b style="color:#003882">Show me first solution for Q3</b></summary>
 
 ```
 SELECT date_hour, avg_temperature, 
@@ -48,8 +69,10 @@ WHERE network    = 'forest-net'
 
 </details>
 
+<br/>Often there are multiple solutions working like here where we can find another way.
+
 <details>
-  <summary>Solution 2</summary>
+  <summary><b style="color:#003882">Show me another solution for Q3</b></summary>
 
 ```
 SELECT date_hour, avg_temperature, 
@@ -63,4 +86,10 @@ WHERE network    = 'forest-net'
 
 </details>
 
-[continue](command:katapod.loadPage?step6){.orange_bar}
+<!-- NAVIGATION -->
+<div id="navigation-bottom" style="width:100%;text-align:center;">
+ <a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22step6%22%7D%5D" 
+    class="btn btn-primary btn-astra" 
+    style="float:right">CONTINUE ➡️
+  </a>
+</div>
