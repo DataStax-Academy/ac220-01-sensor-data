@@ -29,6 +29,7 @@ During this chapter we will validate that Apache Cassandra™ is running for you
 - **✅ Step 1a: Validate that Cassandra is `Ready`**
 
 ```
+chmod 700 ./wait-cassandra.sh
 ./wait-cassandra.sh
 ```
 
@@ -42,7 +43,7 @@ cqlsh 2>/dev/null
 
 Notice that we are working with a single node with datacenter name `DC-Houston`
 ```
-CREATE KEYSPACE sensor_data
+CREATE KEYSPACE IF NOT EXISTS sensor_data
 WITH replication = {
   'class': 'NetworkTopologyStrategy', 
   'DC-Houston': 1 };
