@@ -3,13 +3,14 @@ tasks:
     init: |
       docker pull cassandra:4.0
       pip install -U cqlsh
-      curl -Ls "https://dtsx.io/get-astra-cli" | bash >> ./install.log
-      unset JAVA_TOOL_OPTIONS
     command: | 
       docker run -p 9042:9042 -d \
                  --name Cassandra \
                  -v ${PWD}/config/cassandra.yaml:/etc/cassandra/cassandra.yaml \
                  -v ${PWD}/config/cassandra-rackdc.properties:/etc/cassandra/cassandra-rackdc.properties cassandra:4.0
+      curl -Ls "https://dtsx.io/get-astra-cli" | bash >> ./install.log
+      source /home/gitpod/.astra/cli/astra-init.sh
+      unset JAVA_TOOL_OPTIONS
 ports:
   - port: 9042
     onOpen: ignore
