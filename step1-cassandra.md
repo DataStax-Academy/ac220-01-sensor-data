@@ -1,36 +1,46 @@
+<!-- TOP -->
 <div class="top">
   <img src="https://datastax-academy.github.io/katapod-shared-assets/images/ds-academy-logo.svg" />
-  <span style="position:absolute;top:20px;left:350px;font-size:30px"><b>[AC220][01] - Sensor Data Modeling</b></span>
+  <span style="position:absolute;top:20px;left:350px;font-size:30px"><b>Sensor Data Modeling</b></span>
   <span style="position:absolute;top:80px;left:350px;font-size:12px">ℹ️ You run this scenario using DataStax Katapod platform, which is beta at the moment.</span> 
   <span style="position:absolute;top:100px;left:350px;font-size:12px">For any kind of questions, issue reports or anything other please contact our team using <a href="mailto:aleksandr.volochnev@datastax.com">email</a> or <a href="https://dtsx.io/aleks">LinkedIn</a></span>
 </div>
 
-<a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22intro%22%7D%5D" class="btn btn-primary btn-astra" class="btn btn-primary" style="background-color:#111111;border:0px;position:absolute;top:150px;left:20px">
-      ⬅️ Previous
+<!-- NAVIGATION -->
+<div id="navigation-top" style="width:100%;text-align:center;margin-top:10px;margin-bottom:30px">
+ <a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22intro%22%7D%5D" 
+   class="btn btn-dark" 
+   style="float:left">⬅️  Introduction
+ </a>
+<span style="font-size:20px;"> Step 1 of 7</span>
+ <a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22step2%22%7D%5D" 
+    class="btn btn-dark" 
+    style="float:right">Step 2 ➡️
   </a>
-  Step 1 of 7 
-  <a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22step2%22%7D%5D" class="btn btn-primary btn-astra" class="btn btn-primary" style="background-color:#111111;border:0px;position:absolute;top:150px;left:100px">
-       Next ➡️
-  </a>
+</div>
 
-### [◂](command:katapod.loadPage?intro){.steps} Step 1 of 7 [▸](command:katapod.loadPage?step2){.steps}
 
-# Start Cassandra 
+<!-- CONTENT -->
 
-- Cassandra is Starting, wait for the message `Ready`
+## Start Cassandra
 
-```
-echo -n 'Waiting for Cassandra to start...'; timeout 60 bash -c 'until cqlsh -e "describe cluster" >/dev/null 2>&1; do sleep 2; echo -n "."; done'; echo ' Ready!'
-```
+During this chapter we will validate that Apache Cassandra™ is running for you and will create the dedicated keyspace for our scenario.
 
-- Start the CQL shell:
+- **✅ Step 1a: Validate that Cassandra is `Ready`**
 
 ```
-cqlsh
+./wait-cassandra.sh
 ```
 
-- Create the `sensor_data` keyspace:
+- **✅ Step 1b: Start the CQL shell**
 
+```
+cqlsh 2>/dev/null
+```
+
+- **✅ Step 1c: Create the `sensor_data` keyspace:**
+
+Notice that we are working with a single node with datacenter name `DC-Houston`
 ```
 CREATE KEYSPACE sensor_data
 WITH replication = {
@@ -38,10 +48,16 @@ WITH replication = {
   'DC-Houston': 1 };
 ```
 
-- Set the current working keyspace:
+- **✅ Step 1d: Set the current working keyspace:**
 
 ```
 USE sensor_data;
 ```
 
-[continue](command:katapod.loadPage?step2){.orange_bar}
+<!-- NAVIGATION -->
+<div id="navigation-bottom" style="width:100%;text-align:center;">
+ <a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22step2%22%7D%5D" 
+    class="btn btn-primary btn-astra" 
+    style="float:right">CONTINUE ➡️
+  </a>
+</div>
