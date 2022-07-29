@@ -15,5 +15,6 @@ github:
   prebuilds:
     main: true
 vscode:
-  extensions:
-    - https://github.com/HadesArchitect/katapod/releases/download/0.3.6/katapod-0.3.6.vsix
+   extensions:
+    - https://github.com/HadesArchitect/katapod/releases/download/nightly/katapod-nightly.vsix
+

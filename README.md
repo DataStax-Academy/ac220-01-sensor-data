@@ -4,7 +4,6 @@
 
 Interested in learning more about Cassandra data modeling by example? This example demonstrates how to create a data model for temperature monitoring sensor networks. It covers a conceptual data model, application workflow, logical data model, physical data model, and final CQL schema and query design.
 
-
 **In this scenario, you will:**
 * Learn how to create a data model for temperature monitoring sensor networks
 * Create tables for a sensor data use case 
