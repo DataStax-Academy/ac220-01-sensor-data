@@ -3,6 +3,8 @@ tasks:
     init: |
       docker pull cassandra:4.0
       pip install -U cqlsh
+      curl -Ls "https://dtsx.io/get-astra-cli" | bash >> ./install.log
+      unset JAVA_TOOL_OPTIONS
     command: | 
       docker run -p 9042:9042 -d \
                  --name Cassandra \

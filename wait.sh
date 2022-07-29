@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-curl -Ls "https://dtsx.io/get-astra-cli" | bash 
-
 source ~/.astra/cli/astra-init.sh
 
 unset JAVA_TOOL_OPTIONS
