@@ -24,6 +24,7 @@
      </div>
     </div>
     <div class="container px-4 py-2" id="featured-2" style="margin: 0 auto;width:90%;">
+     <center>
         <p>You can run the hands-on using either a local environment or a cloud service. <b>Pick the one you like</b></p>
         <div class="row g-4 py-2 row-cols-1 row-cols-lg-3" >
           <div class="feature col div-choice">
@@ -45,8 +46,8 @@
             <a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22step1-cassandra%22%7D%5D" class="btn btn-primary btn-astra" class="btn btn-primary" style="background-color:#024BA2;border:0px;float:right">
               Start with DOCKER
             </a>
-            </center>
           </div>
         </div>
+       </center>
       </div>
       </main>
