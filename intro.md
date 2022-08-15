@@ -7,7 +7,7 @@
 <main>
     <div class="container px-4 py-2">
      <div class="row g-4 py-2 row-cols-1 row-cols-lg-1">
-          <div class="feature col div-choice">
+      <div class="feature col div-choice">
             <b>Explore how IoT sensor data can be stored and queried in Cassandra NoSQL database.</b>
             <ul>
               <li><b>Difficulty</b>: Beginner
@@ -20,7 +20,7 @@
               <li>Populate tables with sample sensor data
               <li>Design and execute CQL queries over sensor data
             </ul>
-          </div>
+      </div>
      </div>
     </div>
     <div class="container px-4 py-2" id="featured-2" style="margin: 0 auto;width:90%;">
