@@ -1,6 +1,6 @@
 <div class="top">
   <img src="https://datastax-academy.github.io/katapod-shared-assets/images/ds-academy-logo.svg" />
-  <span style="position:absolute;top:20px;left:350px;font-size:30px"><b>[AC220][01] - Sensor Data Modeling</b></span>
+  <span style="position:absolute;top:20px;left:350px;font-size:30px"><b>Sensor Data Modeling</b></span>
   <span style="position:absolute;top:80px;left:350px;font-size:12px">ℹ️ You run this scenario using DataStax Katapod platform, which is beta at the moment.</span> 
   <span style="position:absolute;top:100px;left:350px;font-size:12px">For any kind of questions, issue reports or anything other please contact our team using <a href="mailto:aleksandr.volochnev@datastax.com">email</a> or <a href="https://dtsx.io/aleks">LinkedIn</a></span>
 </div>
