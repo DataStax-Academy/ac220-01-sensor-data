@@ -1,8 +1,7 @@
 <div class="top">
   <img src="https://datastax-academy.github.io/katapod-shared-assets/images/ds-academy-logo.svg" />
-  <span style="position:absolute;top:20px;left:350px;font-size:2em"><b>Sensor Data Modeling</b></span>
+  <span style="position:absolute;top:20px;left:350px;font-size:2.5em"><b>Sensor Data Modeling</b></span>
   <span style="position:absolute;top:80px;left:350px;font-size:1em">ℹ️ This scenario is created by the DataStax team. For technical support, please contact us via <a href="mailto:aleksandr.volochnev@datastax.com">email</a> or <a href="https://dtsx.io/aleks">LinkedIn</a>.</span> 
-  <span style="position:absolute;top:100px;left:350px;font-size:12px">For any kind of questions, issue reports or anything other please contact our team using <a href="mailto:aleksandr.volochnev@datastax.com">email</a> or <a href="https://dtsx.io/aleks">LinkedIn</a></span>
 </div>
 
 <main>
