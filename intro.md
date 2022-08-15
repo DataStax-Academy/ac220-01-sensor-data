@@ -8,14 +8,16 @@
     <div class="container px-4 py-2">
      <div class="row g-4 py-2 row-cols-1 row-cols-lg-1">
           <div class="feature col div-choice">
-            <p>Explore how IoT sensor data can be stored and queried in Cassandra NoSQL database.
-            <li><b>Difficulty</b>: Beginner
-            <li><b>Time:</b> 15 minutes
-            <li><b>Prerequisite</b>: <a href="https://www.datastax.com/learn/data-modeling-by-example/sensor-data-model" target="_blank">Data model for monitoring sensor networks</a></p>
-            <p><b>In this scenario, you will:</b>
-<li>Create tables for a sensor data use case 
-<li>Populate tables with sample sensor data
-<li>Design and execute CQL queries over sensor data</p>
+            <ul><b>Explore how IoT sensor data can be stored and queried in Cassandra NoSQL database.</b>
+              <li><b>Difficulty</b>: Beginner
+              <li><b>Time:</b> 15 minutes
+              <li><b>Prerequisite</b>: <a href="https://www.datastax.com/learn/data-modeling-by-example/sensor-data-model" target="_blank">Data model for monitoring sensor networks</a>
+            </ul>
+            <ul><b>In this scenario, you will:</b>
+              <li>Create tables for a sensor data use case 
+              <li>Populate tables with sample sensor data
+              <li>Design and execute CQL queries over sensor data
+            </ul>
      </div>
     </div>
     <div class="container px-4 py-2" id="featured-2" style="margin: 0 auto;width:90%;">
