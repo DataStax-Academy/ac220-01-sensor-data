@@ -28,12 +28,12 @@
         <p>You can run the hands-on using either a local environment or a cloud service. <b>Pick the one you like</b></p>
         <div class="row g-4 py-2 row-cols-1 row-cols-lg-3" >
           <div class="feature col div-choice">
-            <div style="height:50px;">
+            <div style="height:80px;margin-top:-30px">
               <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-astradb.svg" height="30px"/>
             </div>
             <h2>Free Cloud DBaas Datastax Astra</h2>
             <p>Save installation time and reuse databases and data across scenarios. You need to sign up and create an account and generate a token. It is totally free and we will guide you.</p>
-            <a href="command:katapod.loadPage?step1-astra" class="btn btn-primary btn-astra">
+            <a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22step1-astra%22%7D%5D" class="btn btn-primary btn-astra">
               Start with ASTRA
             </a>
           </div>
@@ -43,7 +43,7 @@
             </div>
             <h2>Run Locally as a Docker container</h2>
             <p>Docker is already installed. After pulling the image and starting the container (~40s) you will have a full running Cassandra node locally.</p>
-            <a href="command:katapod.loadPage?step1-cassandra" class="btn btn-primary btn-astra" class="btn btn-primary" style="background-color:#024BA2;border:0px;float:right">
+            <a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22step1-cassandra%22%7D%5D" class="btn btn-primary btn-astra" class="btn btn-primary" style="background-color:#024BA2;border:0px;float:right">
               Start with DOCKER
             </a>
           </div>
