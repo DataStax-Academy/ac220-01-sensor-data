@@ -27,7 +27,7 @@
         <p>You can run the hands-on using either a local environment or a cloud service. <b>Pick the one you like</b></p>
         <div class="row g-4 py-2 row-cols-1 row-cols-lg-3" >
           <div class="feature col div-choice">
-            <div style="height:100px;margin-top:0px">
+            <div style="height:100px;margin-top:35px">
               <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-astradb.svg" height="30px"/>
             </div>
             <h2>Free Cloud DBaas Datastax Astra</h2>
@@ -37,12 +37,12 @@
             </a>
           </div>
           <div class="feature col div-choice">
-            <div style="height:100px;margin-top:0px">
+            <div style="height:100px;margin-top:10px">
                 <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-cassandra.svg" height="80px"/>
             </div>
             <h2>Run Locally as a Docker container</h2>
             <p>Docker is already installed. After pulling the image and starting the container (~40s) you will have a full running Cassandra node locally.</p>
-            <a href="command:katapod.loadPage?[{'step':'step1-cassandra'}]" class="btn btn-primary btn-astra" class="btn btn-primary" style="background-color:#024BA2;border:0px;float:right">
+            <a href='command:katapod.loadPage?[{"step":"step1-cassandra"}]' class="btn btn-primary btn-astra" class="btn btn-primary" style="background-color:#024BA2;border:0px;float:right">
               Start with Cassandra
             </a>
           </div>
