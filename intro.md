@@ -27,17 +27,17 @@
         <p>You can run the hands-on using either a local environment or a cloud service. <b>Pick the one you like</b></p>
         <div class="row g-4 py-2 row-cols-1 row-cols-lg-3" >
           <div class="feature col div-choice">
-            <div style="height:100px;margin-top:-50px">
+            <div style="height:100px;margin-top:0px">
               <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-astradb.svg" height="30px"/>
             </div>
             <h2>Free Cloud DBaas Datastax Astra</h2>
             <p>Save installation time and reuse databases and data across scenarios. You need to sign up and create an account and generate a token. It is totally free and we will guide you.</p>
-            <a href="command:katapod.loadPage?[{step:step1-astra}]" class="btn btn-primary btn-astra">
+            <a href='command:katapod.loadPage?[{"step":"step1-astra"}]' class="btn btn-primary btn-astra">
               Start with Astra DB
             </a>
           </div>
           <div class="feature col div-choice">
-            <div style="height:100px;margin-top:-50px">
+            <div style="height:100px;margin-top:0px">
                 <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-cassandra.svg" height="80px"/>
             </div>
             <h2>Run Locally as a Docker container</h2>
