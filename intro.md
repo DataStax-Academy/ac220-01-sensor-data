@@ -7,7 +7,7 @@
 <main>
     <div class="container px-4 py-2">
      <div class="row g-4 py-2 row-cols-1 row-cols-lg-1">
-      <div class="feature col div-choice">
+      <div class="feature col div-choice" style="width:100%">
             <b>Explore how IoT sensor data can be stored and queried in Cassandra NoSQL database.</b>
             <ul>
               <li><b>Difficulty</b>: Beginner
@@ -23,9 +23,9 @@
       </div>
      </div>
     </div>
-    <div class="container px-4 py-2" id="featured-2" style="margin: 0 auto;width:90%;">
+    <div class="container px-4 py-2" id="featured-2" style="margin: 0 auto;width:100%; ">
         <p>You can run the hands-on using either a local environment or a cloud service. <b>Pick the one you like</b></p>
-        <div class="row g-4 py-2 row-cols-1 row-cols-lg-3" >
+        <div class="row g-4 py-2 row-cols-1 row-cols-lg-3" style="align:center;">
           <div class="feature col div-choice">
             <div style="height:100px;margin-top:35px">
               <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-astradb.svg" height="30px"/>
