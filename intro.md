@@ -24,7 +24,7 @@
       </div>
      </div>
     </div>
-    <div class="container px-4 py-2" id="featured-2" style="margin: 0 auto;width:100%; ">
+    <div class="container px-4 py-2">
         <p style="font-size:1.5em;font-weight: bold;">Run this hands-on scenario using Astra DB or Apache Cassandra™:</p>
         <div class="row g-4 py-2 row-cols-1 row-cols-lg-3">
           <div class="feature col div-choice">
