@@ -26,7 +26,7 @@
     </div>
     <div class="container px-4 py-2">
         <p style="font-size:1.5em;font-weight: bold;">Run this hands-on scenario using Astra DB or Apache Cassandra™:</p>
-        <div class="row g-4 py-2 row-cols-1 row-cols-lg-2">
+        <div class="row g-4 py-2 row-cols-1 row-cols-lg-1">
           <div class="feature col div-choice">
             <div style="height:80px;margin-top:20px">
               <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-astradb.svg" height="40px" class="centered-img" />
