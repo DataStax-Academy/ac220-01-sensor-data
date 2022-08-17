@@ -24,8 +24,8 @@
      </div>
     </div>
     <div class="container px-4 py-2" id="featured-2" style="margin: 0 auto;width:100%; ">
-        <b>Run this hands-on scenario using Astra DB or Apache Cassandra™:</b>
-        <div class="row g-4 py-2 row-cols-1 row-cols-lg-3" style="align:center;">
+        <p style="font-size:1.5em;font-weight: bold;">Run this hands-on scenario using Astra DB or Apache Cassandra™:</p>
+        <div class="row g-4 py-2 row-cols-1 row-cols-lg-3">
           <div class="feature col div-choice">
             <div style="height:100px;margin-top:35px">
               <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-astradb.svg" height="30px"/>
@@ -39,13 +39,13 @@
           <div class="feature col div-choice">
             <div style="height:100px;margin-top:10px">
                 <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-cassandra.svg" height="80px"/>
-                <a href='command:katapod.loadPage?[{"step":"step1-cassandra"}]' class="btn btn-primary btn-astra" style="background-color:#024BA2;border:0px;float:right">
-                  Start with Cassandra
-                </a>                
             </div>
             <h2>Local deployment of open-source Apache Cassandra</h2>
             <p>Docker is already installed. After pulling the image and starting the container (~40s) you will have a full running Cassandra node locally.</p>
+            <a href='command:katapod.loadPage?[{"step":"step1-cassandra"}]' class="btn btn-primary btn-astra" style="background-color:#024BA2;border:0px;float:right">
+              Start with Cassandra
+            </a>   
           </div>
         </div>
-      </div>
-      </main>
+    </div>
+</main>
