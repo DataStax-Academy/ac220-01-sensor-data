@@ -27,18 +27,18 @@
         <p style="font-size:1.5em;font-weight: bold;">Run this hands-on scenario using Astra DB or Apache Cassandra™:</p>
         <div class="row g-4 py-2 row-cols-1 row-cols-lg-3">
           <div class="feature col div-choice">
-            <div style="height:80px;margin-top:25px">
-              <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-astradb.svg" height="30px" class="centered-img" />
+            <div style="height:80px;margin-top:20px">
+              <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-astradb.svg" height="40px" class="centered-img" />
             </div>
-            <div  style="font-size:1.5em; font-weight:normal;">Cloud database service built on Apache Cassandra</div>
+            <h2>Cloud database service built on Apache Cassandra</h2>
             <p>You will use a free cloud database service that runs a multi-node Cassandra cluster for you.</p>
             <a href='command:katapod.loadPage?[{"step":"step1-astra"}]' class="btn btn-primary btn-astra">
               Start with Astra DB
             </a>
           </div>
           <div class="feature col div-choice">
-            <div style="height:80px;margin-top:25px">
-                <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-cassandra.png" height="30px" class="centered-img" />
+            <div style="height:80px;margin-top:20px">
+                <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-cassandra.png" height="40px" class="centered-img" />
             </div>
             <h2>Local deployment of open-source Apache Cassandra</h2>
             <p>You will install and run a Cassandra cluster locally in Gitpod using Docker.</p>
