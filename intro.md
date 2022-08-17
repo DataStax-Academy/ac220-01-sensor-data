@@ -29,7 +29,7 @@
         <div class="row g-4 py-2 row-cols-1 row-cols-lg-1">
           <div class="feature col div-choice">
             <div style="height:80px;margin-top:20px">
-              <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-astradb.svg" height="40px" class="centered-img" />
+              <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-astradb.svg" height="40px" />
             </div>
             <h2>Cloud database service built on Apache Cassandra</h2>
             <p>You will use a free cloud database service that runs a Cassandra cluster for you.</p>
@@ -39,7 +39,7 @@
           </div>
           <div class="feature col div-choice">
             <div style="height:80px;margin-top:20px">
-                <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-cassandra.png" height="40px" class="centered-img" />
+                <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-cassandra.png" height="40px" />
             </div>
             <h2>Local deployment of open-source Apache Cassandra</h2>
             <p>You will install, start and use a Cassandra cluster locally in Gitpod using Docker.</p>
