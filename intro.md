@@ -42,7 +42,7 @@
             </div>
             <h2>Local deployment of open-source Apache Cassandra</h2>
             <p>You will install and run a Cassandra cluster locally in Gitpod using Docker.</p>
-            <a href='command:katapod.loadPage?[{"step":"step1-cassandra"}]' class="btn btn-primary btn-astra" style="background-color:1287b1;">
+            <a href='command:katapod.loadPage?[{"step":"step1-cassandra"}]' class="btn btn-primary btn-cassandra">
               Start with Cassandra
             </a>   
           </div>
