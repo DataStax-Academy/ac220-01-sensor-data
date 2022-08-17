@@ -39,12 +39,12 @@
           <div class="feature col div-choice">
             <div style="height:100px;margin-top:10px">
                 <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-cassandra.svg" height="80px"/>
+                <a href='command:katapod.loadPage?[{"step":"step1-cassandra"}]' class="btn btn-primary btn-astra" style="background-color:#024BA2;border:0px;float:right">
+                  Start with Cassandra
+                </a>                
             </div>
             <h2>Local deployment of open-source Apache Cassandra</h2>
             <p>Docker is already installed. After pulling the image and starting the container (~40s) you will have a full running Cassandra node locally.</p>
-            <a href='command:katapod.loadPage?[{"step":"step1-cassandra"}]' class="btn btn-primary btn-astra" class="btn btn-primary" style="background-color:#024BA2;border:0px;float:right">
-              Start with Cassandra
-            </a>
           </div>
         </div>
       </div>
