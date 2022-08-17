@@ -30,7 +30,7 @@
             <div style="height:80px;margin-top:25px">
               <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-astradb.svg" height="30px" class="centered-img" />
             </div>
-            <h2>Cloud database service built on Apache Cassandra</h2>
+            <div  style="font-size:1.5em; font-weight:normal;">Cloud database service built on Apache Cassandra</div>
             <p>You will use a free cloud database service that runs a multi-node Cassandra cluster for you.</p>
             <a href='command:katapod.loadPage?[{"step":"step1-astra"}]' class="btn btn-primary btn-astra">
               Start with Astra DB
