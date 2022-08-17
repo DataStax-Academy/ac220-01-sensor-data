@@ -37,8 +37,8 @@
             </a>
           </div>
           <div class="feature col div-choice">
-            <div style="height:100px;margin-top:10px">
-                <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-cassandra.svg" height="80px"/>
+            <div style="height:100px;margin-top:35px">
+                <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-cassandra.png" height="30px"/>
             </div>
             <h2>Local deployment of open-source Apache Cassandra</h2>
             <p>Docker is already installed. After pulling the image and starting the container (~40s) you will have a full running Cassandra node locally.</p>
