@@ -12,7 +12,7 @@
             <ul>
               <li><b>Difficulty</b>: Beginner
               <li><b>Time:</b> 15 minutes
-              <li><b>Prerequisite</b>: <a href="https://www.datastax.com/learn/data-modeling-by-example/sensor-data-model" target="_blank">Data model for monitoring sensor networks</a>
+              <li><b>Prerequisite</b>: <a href="https://www.datastax.com/learn/data-modeling-by-example/sensor-data-model" target="_blank">how to create a data model for temperature monitoring sensor networks</a>
             </ul>
             <span style="font-size:1.5em;font-weight: bold;">In this scenario, you will:</span>
             <ul>
