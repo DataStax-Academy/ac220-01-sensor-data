@@ -31,7 +31,7 @@
               <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-astradb.svg" height="30px"/>
             </div>
             <h2>Cloud database service built on Apache Cassandra</h2>
-            <p>Save installation time and reuse databases and data across scenarios. You need to sign up and create an account and generate a token. It is totally free and we will guide you.</p>
+            <p>You will use a free cloud database service that runs a multi-node Cassandra cluster for you.</p>
             <a href='command:katapod.loadPage?[{"step":"step1-astra"}]' class="btn btn-primary btn-astra">
               Start with Astra DB
             </a>
@@ -41,8 +41,8 @@
                 <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-cassandra.png" height="30px"/>
             </div>
             <h2>Local deployment of open-source Apache Cassandra</h2>
-            <p>Docker is already installed. After pulling the image and starting the container (~40s) you will have a full running Cassandra node locally.</p>
-            <a href='command:katapod.loadPage?[{"step":"step1-cassandra"}]' class="btn btn-primary btn-astra" style="background-color:#024BA2;border:0px;float:right">
+            <p>You will install and run a Cassandra cluster locally in Gitpod using Docker.</p>
+            <a href='command:katapod.loadPage?[{"step":"step1-cassandra"}]' class="btn btn-primary btn-astra" style="background-color:#024BA2;">
               Start with Cassandra
             </a>   
           </div>
