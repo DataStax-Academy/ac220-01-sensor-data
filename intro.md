@@ -25,10 +25,10 @@
      </div>
     </div>
     <div class="container px-4 py-2">
-        <div class="large-bold">Run this hands-on scenario using Astra DB or Apache Cassandra™:</div>
+        <div class="large-bold">Run this hands-on scenario using Astra DB or Apache Cassandra™:</div><br/>
         <div class="row g-4 py-2 row-cols-1 row-cols-lg-1">
           <div class="feature col div-choice">
-            <div style="height:80px;margin-top:20px">
+            <div class="logo-astradb">
               <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-astradb.svg" height="40px" />
             </div>
             <h2>Cloud database service built on Apache Cassandra</h2>
@@ -38,7 +38,7 @@
             </a>
           </div>
           <div class="feature col div-choice">
-            <div style="height:80px;margin-top:20px">
+            <div class="logo-cassandra">
                 <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-cassandra.png" height="40px" />
             </div>
             <h2>Local deployment of open-source Apache Cassandra</h2>
