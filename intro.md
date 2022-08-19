@@ -9,13 +9,13 @@
     <div class="container px-4 py-2">
      <div class="row g-4 py-2 row-cols-1 row-cols-lg-1">
       <div class="feature col div-choice">
-            <span style="font-size:1.5em; font-weight:bold;">Explore how IoT sensor data can be stored and queried in Cassandra NoSQL database.</span>
+            <span class="large-bold">Explore how IoT sensor data can be stored and queried in Cassandra NoSQL database.</span>
             <ul>
               <li>Difficulty: Beginner
               <li>Time: 15 minutes
               <li>Prerequisite: <a href="https://www.datastax.com/learn/data-modeling-by-example/sensor-data-model" target="_blank">how to create a data model for temperature monitoring sensor networks</a>
             </ul>
-            <span style="font-size:1.5em; font-weight:bold;">In this scenario, you will:</span>
+            <span class="large-bold">In this scenario, you will:</span>
             <ul>
               <li>Create tables for a sensor data use case 
               <li>Populate tables with sample sensor data
@@ -25,7 +25,7 @@
      </div>
     </div>
     <div class="container px-4 py-2">
-        <p style="font-size:1.5em;font-weight: bold;">Run this hands-on scenario using Astra DB or Apache Cassandra™:</p>
+        <div class="large-bold">Run this hands-on scenario using Astra DB or Apache Cassandra™:</div>
         <div class="row g-4 py-2 row-cols-1 row-cols-lg-1">
           <div class="feature col div-choice">
             <div style="height:80px;margin-top:20px">
