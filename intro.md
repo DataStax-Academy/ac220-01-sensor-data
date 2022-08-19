@@ -1,7 +1,7 @@
 <div class="top">
   <img src="https://datastax-academy.github.io/katapod-shared-assets/images/ds-academy-logo.svg" />
-  <span style="position:absolute;top:20px;left:350px;font-size:2.5em"><b>Sensor Data Modeling</b></span>
-  <span style="position:absolute;top:80px;left:350px;font-size:1em">ℹ️ For technical support, please contact us via <a href="mailto:aleksandr.volochnev@datastax.com">email</a> or <a href="https://dtsx.io/aleks">LinkedIn</a>.</span> 
+  <span class="scenario-title">Sensor Data Modeling</span>
+  <span class="scenario-subtitle">ℹ️ For technical support, please contact us via <a href="mailto:aleksandr.volochnev@datastax.com">email</a> or <a href="https://dtsx.io/aleks">LinkedIn</a>.</span> 
 </div>
 
 <main>
@@ -9,13 +9,13 @@
     <div class="container px-4 py-2">
      <div class="row g-4 py-2 row-cols-1 row-cols-lg-1">
       <div class="feature col div-choice">
-            <span style="font-size:1.5em;font-weight: bold;">Explore how IoT sensor data can be stored and queried in Cassandra NoSQL database.</span>
+            <span style="font-size:1.5em; font-weight:bold;">Explore how IoT sensor data can be stored and queried in Cassandra NoSQL database.</span>
             <ul>
-              <li><b>Difficulty</b>: Beginner
-              <li><b>Time:</b> 15 minutes
-              <li><b>Prerequisite</b>: <a href="https://www.datastax.com/learn/data-modeling-by-example/sensor-data-model" target="_blank">how to create a data model for temperature monitoring sensor networks</a>
+              <li>Difficulty: Beginner
+              <li>Time: 15 minutes
+              <li>Prerequisite: <a href="https://www.datastax.com/learn/data-modeling-by-example/sensor-data-model" target="_blank">how to create a data model for temperature monitoring sensor networks</a>
             </ul>
-            <span style="font-size:1.5em;font-weight: bold;">In this scenario, you will:</span>
+            <span style="font-size:1.5em; font-weight:bold;">In this scenario, you will:</span>
             <ul>
               <li>Create tables for a sensor data use case 
               <li>Populate tables with sample sensor data
