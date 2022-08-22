@@ -12,11 +12,11 @@
  </a>
 <span style="font-size:20px;"> Step 3 of 7</span>
  <a href='command:katapod.loadPage?[{"step":"step4"}]' 
-    class="btn btn-dark" 
-    style="float:right">Step 4 ➡️
+    class="btn btn-dark navigation-top-right">Step 4 ➡️
   </a>
 </div>
 
+<!-- CONTENT -->
 
 # Import the DataSet
 

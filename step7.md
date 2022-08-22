@@ -12,10 +12,11 @@
  </a>
 <span style="font-size:20px;"> Step 7 of 7</span>
  <a href='command:katapod.loadPage?[{"step":"finish"}]'
-    class="btn btn-dark" 
-    style="float:right">Finish ➡️
+    class="btn btn-dark navigation-top-right">Finish ➡️
   </a>
 </div>
+
+<!-- CONTENT -->
 
 # Exercise
 
@@ -34,6 +35,7 @@ WHERE sensor = 's1003'
 ```
 
 </details>
+
 <!-- NAVIGATION -->
 <div id="navigation-bottom" style="width:100%;text-align:center;">
  <a href='command:katapod.loadPage?[{"step":"finish"}]'

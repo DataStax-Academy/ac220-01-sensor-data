@@ -5,6 +5,7 @@
   <span class="scenario-subtitle">ℹ️ For technical support, please contact us via <a href="mailto:aleksandr.volochnev@datastax.com">email</a> or <a href="https://dtsx.io/aleks">LinkedIn</a>.</span> 
 </div>
 
+<!-- CONTENT -->
 <main>
     <br/>
     <div class="container px-4 py-2">

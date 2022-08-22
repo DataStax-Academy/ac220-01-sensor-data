@@ -12,10 +12,11 @@
  </a>
 <span style="font-size:20px;"> Step 6 of 7</span>
  <a href='command:katapod.loadPage?[{"step":"step7"}]' 
-    class="btn btn-dark" 
-    style="float:right">Step 7 ➡️
+    class="btn btn-dark navigation-top-right">Step 7 ➡️
   </a>
 </div>
+
+<!-- CONTENT -->
 
 # Exercise
 
