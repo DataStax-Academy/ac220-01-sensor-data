@@ -25,7 +25,7 @@
 > Q2: Find hourly average temperatures for every sensor in network `forest-net` and date range [`2020-07-05`,`2020-07-06`] within the week of `2020-07-05`; order by date (desc) and hour (desc):
 
 <details>
-  <summary><b style="color:#003882">Show me the Solution for Q2</b></summary>
+  <summary>Show me the Solution for Q2</summary>
 
 ```
 SELECT date_hour, avg_temperature, 
@@ -45,7 +45,7 @@ WHERE network    = 'forest-net'
 > Q3: Find hourly average temperatures for every sensor in network `forest-net` and date range [`2020-07-04`,`2020-07-06`] within the weeks of `2020-06-28` and `2020-07-05`; order by date (desc) and hour (desc):
 
 <details>
-  <summary><b style="color:#003882">Show me first solution for Q3</b></summary>
+  <summary>Show me first solution for Q3</summary>
 
 ```
 SELECT date_hour, avg_temperature, 
@@ -70,7 +70,7 @@ WHERE network    = 'forest-net'
 <br/>Often there are multiple solutions working like here where we can find another way.
 
 <details>
-  <summary><b style="color:#003882">Show me another solution for Q3</b></summary>
+  <summary>Show me another solution for Q3</summary>
 
 ```
 SELECT date_hour, avg_temperature, 

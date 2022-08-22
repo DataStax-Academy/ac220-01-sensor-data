@@ -25,7 +25,7 @@
 > Q4: Find information about all sensors in network `forest-net`:
 
 <details>
-  <summary><b style="color:#003882">Show me first solution for Q4</b></summary>
+  <summary>Show me first solution for Q4</summary>
 
 ```
 SELECT * 
