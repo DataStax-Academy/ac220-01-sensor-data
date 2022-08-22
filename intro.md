@@ -31,8 +31,8 @@
             <div class="logo-astradb">
               <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-astradb.svg" height="40px" />
             </div>
-            <p class="astradb-line1">Cloud database service built on Apache Cassandra</p>
-            <p class="astradb-line2">You will connect to a free cloud database service that runs a Cassandra cluster for you.</p>
+            <div class="astradb-line1">Cloud database service built on Apache Cassandra</div>
+            <div class="astradb-line2">You will connect to a free cloud database service that runs a Cassandra cluster for you.</div>
             <a href='command:katapod.loadPage?[{"step":"step1-astra"}]' class="btn btn-primary btn-astra">
               Start with Astra DB
             </a>
@@ -41,8 +41,8 @@
             <div class="logo-cassandra">
                 <img src="https://datastax-academy.github.io/katapod-shared-assets/images/logo-cassandra.png" height="40px" />
             </div>
-            <p class="cassandra-line1">Local deployment of open-source Apache Cassandra</p>
-            <p class="cassandra-line2">You will install, start and use a Cassandra cluster locally in Gitpod using Docker.</p>
+            <div class="cassandra-line1">Local deployment of open-source Apache Cassandra</div>
+            <div class="cassandra-line2">You will install, start and use a Cassandra cluster locally in Gitpod using Docker.</div>
             <a href='command:katapod.loadPage?[{"step":"step1-cassandra"}]' class="btn btn-primary btn-cassandra">
               Start with Cassandra
             </a>   
