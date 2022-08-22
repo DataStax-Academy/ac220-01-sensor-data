@@ -10,7 +10,7 @@
  <a href='command:katapod.loadPage?[{"step":"intro"}]' 
    class="btn btn-dark navigation-top-left">⬅️ Introduction
  </a>
-<span style="font-size:20px;"> Step 1 of 7</span>
+<span class="step-count"> Step 1 of 7</span>
  <a href='command:katapod.loadPage?[{"step":"step2"}]' 
     class="btn btn-dark navigation-top-right">Step 2 ➡️
   </a>
@@ -102,10 +102,9 @@ astra db cqlsh ac201 -k sensor_data
 > If the command above fails that mean the database is not ready yet. Wait a few seconds and retry. A new database will take about 1 min to start, it is a 3 nodes cluster.
 
 <!-- NAVIGATION -->
-<div id="navigation-bottom" style="width:100%;text-align:center;">
+<div id="navigation-bottom" class="navigation-bottom">
  <a href='command:katapod.loadPage?[{"step":"step2"}]' 
-    class="btn btn-primary btn-astra" 
-    style="float:right">CONTINUE ➡️
+    class="btn btn-primary btn-astra navigation-bottom-right">CONTINUE ➡️
   </a>
 </div>
 

@@ -10,7 +10,7 @@
  <a href='command:katapod.loadPage?[{"step":"step4"}]'
    class="btn btn-dark navigation-top-left">⬅️ Step 4
  </a>
-<span style="font-size:20px;"> Step 5 of 7</span>
+<span class="step-count"> Step 5 of 7</span>
  <a href='command:katapod.loadPage?[{"step":"step6"}]'
     class="btn btn-dark navigation-top-right">Step 6 ➡️
   </a>
@@ -85,9 +85,8 @@ WHERE network    = 'forest-net'
 </details>
 
 <!-- NAVIGATION -->
-<div id="navigation-bottom" style="width:100%;text-align:center;">
+<div id="navigation-bottom" class="navigation-bottom">
  <a href='command:katapod.loadPage?[{"step":"step6"}]' 
-    class="btn btn-primary btn-astra" 
-    style="float:right">CONTINUE ➡️
+    class="btn btn-primary btn-astra navigation-bottom-right">CONTINUE ➡️
   </a>
 </div>

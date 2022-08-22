@@ -10,7 +10,7 @@
  <a href='command:katapod.loadPage?[{"step":"step3"}]'
    class="btn btn-dark navigation-top-left">⬅️ Step 3
  </a>
-<span style="font-size:20px;"> Step 4 of 7</span>
+<span class="step-count"> Step 4 of 7</span>
  <a href='command:katapod.loadPage?[{"step":"step5"}]' 
     class="btn btn-dark navigation-top-right">Step 5 ➡️
   </a>
@@ -37,9 +37,8 @@ WHERE bucket = 'all';
 </details>
 
 <!-- NAVIGATION -->
-<div id="navigation-bottom" style="width:100%;text-align:center;">
+<div id="navigation-bottom" class="navigation-bottom">
  <a href='command:katapod.loadPage?[{"step":"step5"}]' 
-    class="btn btn-primary btn-astra" 
-    style="float:right">CONTINUE ➡️
+    class="btn btn-primary btn-astra navigation-bottom-right">CONTINUE ➡️
   </a>
 </div>

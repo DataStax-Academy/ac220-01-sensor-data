@@ -10,7 +10,7 @@
  <a href='command:katapod.loadPage?[{"step":"intro"}]'
    class="btn btn-dark navigation-top-left">⬅️ Introduction
  </a>
-<span style="font-size:20px;"> Step 2 of 7</span>
+<span class="step-count"> Step 2 of 7</span>
  <a href='command:katapod.loadPage?[{"step":"step3"}]' 
     class="btn btn-dark navigation-top-right">Step 3 ➡️
   </a>
@@ -80,9 +80,8 @@ describe tables;
 ```
 
 <!-- NAVIGATION -->
-<div id="navigation-bottom" style="width:100%;text-align:center;">
+<div id="navigation-bottom" class="navigation-bottom">
  <a href='command:katapod.loadPage?[{"step":"step3"}]'
-    class="btn btn-primary btn-astra" 
-    style="float:right">CONTINUE ➡️
+    class="btn btn-primary btn-astra navigation-bottom-right">CONTINUE ➡️
   </a>
 </div>
