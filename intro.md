@@ -1,3 +1,4 @@
+<!-- TOP -->
 <div class="top">
   <img src="https://datastax-academy.github.io/katapod-shared-assets/images/ds-academy-logo.svg" />
   <span class="scenario-title">Sensor Data Modeling</span>

@@ -1,15 +1,14 @@
+<!-- TOP -->
 <div class="top">
   <img src="https://datastax-academy.github.io/katapod-shared-assets/images/ds-academy-logo.svg" />
-  <span style="position:absolute;top:20px;left:350px;font-size:30px"><b>[AC220][01] - Sensor Data Modeling</b></span>
-  <span style="position:absolute;top:80px;left:350px;font-size:12px">ℹ️ You run this scenario using DataStax Katapod platform, which is beta at the moment.</span> 
-  <span style="position:absolute;top:100px;left:350px;font-size:12px">For any kind of questions, issue reports or anything other please contact our team using <a href="mailto:aleksandr.volochnev@datastax.com">email</a> or <a href="https://dtsx.io/aleks">LinkedIn</a></span>
+  <span class="scenario-title">Sensor Data Modeling</span>
+  <span class="scenario-subtitle">ℹ️ For technical support, please contact us via <a href="mailto:aleksandr.volochnev@datastax.com">email</a> or <a href="https://dtsx.io/aleks">LinkedIn</a>.</span> 
 </div>
 
 <!-- NAVIGATION -->
-<div id="navigation-top" style="width:100%;text-align:center;margin-top:10px;margin-bottom:30px">
- <a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22step7%22%7D%5D" 
-   class="btn btn-dark" 
-   style="float:left">⬅️ Back to Step 7
+<div id="navigation-top" class="navigation-top">
+ <a href='command:katapod.loadPage?[{"step":"step7"}]'
+   class="btn btn-dark navigation-top-left">⬅️ Step 7
  </a>
 </div>
 

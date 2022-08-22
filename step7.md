@@ -6,13 +6,12 @@
 </div>
 
 <!-- NAVIGATION -->
-<div id="navigation-top" style="width:100%;text-align:center;margin-top:10px;margin-bottom:30px">
- <a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22step6%22%7D%5D" 
-   class="btn btn-dark" 
-   style="float:left">⬅️ Step 6
+<div id="navigation-top" class="navigation-top">
+ <a href='command:katapod.loadPage?[{"step":"step6"}]'
+   class="btn btn-dark navigation-top-left">⬅️ Step 6
  </a>
 <span style="font-size:20px;"> Step 7 of 7</span>
- <a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22finish%22%7D%5D" 
+ <a href='command:katapod.loadPage?[{"step":"finish"}]'
     class="btn btn-dark" 
     style="float:right">Finish ➡️
   </a>
@@ -37,7 +36,7 @@ WHERE sensor = 's1003'
 </details>
 <!-- NAVIGATION -->
 <div id="navigation-bottom" style="width:100%;text-align:center;">
- <a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22finish%22%7D%5D" 
+ <a href='command:katapod.loadPage?[{"step":"finish"}]'
     class="btn btn-primary btn-astra" 
     style="float:right">CONTINUE ➡️
   </a>
