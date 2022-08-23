@@ -33,7 +33,6 @@ CREATE TABLE IF NOT EXISTS networks (
 ```
 
 (b) Create table `temperatures_by_network`:
-
 ```
 CREATE TABLE IF NOT EXISTS temperatures_by_network (
   network TEXT,
@@ -47,8 +46,7 @@ CREATE TABLE IF NOT EXISTS temperatures_by_network (
 ) WITH CLUSTERING ORDER BY (date_hour DESC, sensor ASC);
 ```
 
-- **✅ Step 2c: Create table `sensors_by_network`**
-
+Create table `sensors_by_network`:
 ```
 CREATE TABLE IF NOT EXISTS  sensors_by_network (
   network TEXT,
@@ -60,8 +58,7 @@ CREATE TABLE IF NOT EXISTS  sensors_by_network (
 );
 ```
 
-- **✅ Step 2d: Create table `temperatures_by_sensor`**
-
+✅ Create table `temperatures_by_sensor`:
 ```
 CREATE TABLE IF NOT EXISTS  temperatures_by_sensor (
   sensor TEXT,
