@@ -25,7 +25,7 @@
 > Q5: Find raw measurements for sensor `s1003` on `2020-07-06`; order by timestamp (desc):
 
 <details>
-  <summary>Show me first solution for Q5</summary>
+  <summary>Solution</summary>
 
 ```
 SELECT timestamp, value 

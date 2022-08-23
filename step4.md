@@ -25,7 +25,7 @@
 > Q1: Find information about all networks; order by name (asc):
 
 <details>
-  <summary>Show me the Solution for Q1</summary>
+  <summary>Solution</summary>
 
 ```
 SELECT name, description,

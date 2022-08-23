@@ -25,7 +25,7 @@
 > Q4: Find information about all sensors in network `forest-net`:
 
 <details>
-  <summary>Show me first solution for Q4</summary>
+  <summary>Solution</summary>
 
 ```
 SELECT * 
