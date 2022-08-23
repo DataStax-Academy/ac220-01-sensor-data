@@ -22,10 +22,10 @@
 
 ✅ Create an application token to access Astra. Skip this step is you already have a token.
 
-<ol>
+<ul>
   <li>Sign in (or sign up) to your Astra account at <a href="https://astra.datastax.com" target="_blank">astra.datastax.com</a></li>
   <li>Create an application token by following <a href="https://awesome-astra.github.io/docs/pages/astra/create-token/" target="_blank">these instructions</a></li>
-</ol>
+</ul>
 
 You can reuse the same token in our other scenarios, too.
 
@@ -66,7 +66,7 @@ clear
 astra db cqlsh data-modeling -k sensor_data
 ```
 
-If the command fails, please revisit the previous steps to make sure that the database exists and is `ACTIVE` and retry connecting to the database again.
+If the command fails, please revisit the previous steps to make sure that the database exists and is `ACTIVE`, and retry connecting to the database again.
 
 <!-- NAVIGATION -->
 <div id="navigation-bottom" class="navigation-bottom">
