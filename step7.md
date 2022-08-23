@@ -18,11 +18,9 @@
 
 <!-- CONTENT -->
 
-# Exercise
+# Design query Q4
 
-- **✅ Step 7a: Build a Cql query that matches those requirements**
-
-> Q5: Find raw measurements for sensor `s1003` on `2020-07-06`; order by timestamp (desc):
+✅ Find raw measurements for sensor `s1003` on `2020-07-06`; order by timestamp (desc):
 
 <details>
   <summary>Solution</summary>

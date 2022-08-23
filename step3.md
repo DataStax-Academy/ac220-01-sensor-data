@@ -18,36 +18,31 @@
 
 <!-- CONTENT -->
 
-# Import the DataSet
+# Populate tables
 
-- **✅ Step 3a: Execute the CQL script to insert sample data**
-
+✅ Execute the CQL script to insert sample data:
 ```
 SOURCE 'assets/sensor_data.cql'
 ```
 
-- **✅ Step 3b: Retrieve all rows from table `networks`**
-
+✅ Retrieve all rows from table `networks`:
 ```
 SELECT * FROM networks;        
 ```
 
-- **✅ Step 3c: Retrieve all rows from table `temperatures_by_network`**
-
+✅ Retrieve all rows from table `temperatures_by_network`:
 ```
 SELECT network, week, date_hour, 
        sensor, avg_temperature 
 FROM temperatures_by_network;
 ```
 
-- **✅ Step 3d: Retrieve all rows from table `sensors_by_network`**
-
+✅ Retrieve all rows from table `sensors_by_network`:
 ```
 SELECT * FROM sensors_by_network;                    
 ```
 
-- **✅ Step 3e: Retrieve all rows from table `temperatures_by_sensor`**
-
+✅ Retrieve all rows from table `temperatures_by_sensor`:
 ```
 SELECT * FROM temperatures_by_sensor; 
 ```

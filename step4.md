@@ -18,11 +18,9 @@
 
 <!-- CONTENT -->
 
-# Exercise
+# Design query Q1
 
-- **✅ Step 4a: Build a Cql query that matches those requirements**
-
-> Q1: Find information about all networks; order by name (asc):
+✅ Find information about all networks; order by name (asc):
 
 <details>
   <summary>Solution</summary>

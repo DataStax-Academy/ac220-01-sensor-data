@@ -18,11 +18,9 @@
 
 <!-- CONTENT -->
 
-# Exercise
+# Design query Q2
 
-- **✅ Step 5a: Build a Cql query that matches those requirements**
-
-> Q2: Find hourly average temperatures for every sensor in network `forest-net` and date range [`2020-07-05`,`2020-07-06`] within the week of `2020-07-05`; order by date (desc) and hour (desc):
+✅ Find hourly average temperatures for every sensor in network `forest-net` and date range [`2020-07-05`,`2020-07-06`] within the week of `2020-07-05`; order by date (desc) and hour (desc):
 
 <details>
   <summary>Solution</summary>
@@ -36,13 +34,12 @@ WHERE network    = 'forest-net'
   AND date_hour >= '2020-07-05'
   AND date_hour  < '2020-07-07';
 ```
+
 </details>
 
 <br/>
 
-- **✅ Step 5b: Build a Cql query that matches those requirements**
-
-> Q3: Find hourly average temperatures for every sensor in network `forest-net` and date range [`2020-07-04`,`2020-07-06`] within the weeks of `2020-06-28` and `2020-07-05`; order by date (desc) and hour (desc):
+✅ Find hourly average temperatures for every sensor in network `forest-net` and date range [`2020-07-04`,`2020-07-06`] within the weeks of `2020-06-28` and `2020-07-05`; order by date (desc) and hour (desc):
 
 <details>
   <summary>Solution 1</summary>
@@ -66,8 +63,6 @@ WHERE network    = 'forest-net'
 ```
 
 </details>
-
-<br/>Often there are multiple solutions working like here where we can find another way.
 
 <details>
   <summary>Solution 2</summary>

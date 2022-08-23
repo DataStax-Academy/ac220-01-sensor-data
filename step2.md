@@ -20,9 +20,9 @@
 
 # Create tables
 
-✅ (a) Create table `networks`:
+✅ Create table `networks`:
 ```
-CREATE TABLE IF NOT EXISTS networks (
+CREATE TABLE networks (
   bucket TEXT,
   name TEXT,
   description TEXT,
@@ -32,9 +32,9 @@ CREATE TABLE IF NOT EXISTS networks (
 );
 ```
 
-(b) Create table `temperatures_by_network`:
+✅ Create table `temperatures_by_network`:
 ```
-CREATE TABLE IF NOT EXISTS temperatures_by_network (
+CREATE TABLE temperatures_by_network (
   network TEXT,
   week DATE,
   date_hour TIMESTAMP,
@@ -46,9 +46,9 @@ CREATE TABLE IF NOT EXISTS temperatures_by_network (
 ) WITH CLUSTERING ORDER BY (date_hour DESC, sensor ASC);
 ```
 
-Create table `sensors_by_network`:
+✅ Create table `sensors_by_network`:
 ```
-CREATE TABLE IF NOT EXISTS  sensors_by_network (
+CREATE TABLE sensors_by_network (
   network TEXT,
   sensor TEXT,
   latitude DECIMAL,
@@ -58,9 +58,10 @@ CREATE TABLE IF NOT EXISTS  sensors_by_network (
 );
 ```
 
+
 ✅ Create table `temperatures_by_sensor`:
 ```
-CREATE TABLE IF NOT EXISTS  temperatures_by_sensor (
+CREATE TABLE temperatures_by_sensor (
   sensor TEXT,
   date DATE,
   timestamp TIMESTAMP,
@@ -69,10 +70,9 @@ CREATE TABLE IF NOT EXISTS  temperatures_by_sensor (
 ) WITH CLUSTERING ORDER BY (timestamp DESC);
 ```
 
-- **✅ Step 2e: Check that the 4 tables are created**
-
+✅ Verify that the four tables have been created:
 ```
-describe tables;
+DESCRIBE TABLES;
 ```
 
 <!-- NAVIGATION -->

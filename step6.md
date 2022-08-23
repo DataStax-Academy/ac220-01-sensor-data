@@ -18,11 +18,9 @@
 
 <!-- CONTENT -->
 
-# Exercise
+# Design query Q3
 
-- **✅ Step 6a: Build a Cql query that matches those requirements**
-
-> Q4: Find information about all sensors in network `forest-net`:
+✅ Find information about all sensors in network `forest-net`:
 
 <details>
   <summary>Solution</summary>
@@ -32,6 +30,7 @@ SELECT *
 FROM sensors_by_network
 WHERE network = 'forest-net';
 ```
+
 </details>
 
 <!-- NAVIGATION -->
