@@ -18,19 +18,19 @@
     <div class="container px-4 py-2">
      <div class="row g-4 py-2 row-cols-1 row-cols-lg-1">
       <div class="feature col div-choice">
-        <div class="astradb-line1">Scenario Completed. Congratulations!</div>
-        <span class="scenario-objectives">In this scenario, you explored:</span>
-            <ul>
+        <div class="scenario-completed">Scenario Completed. Congratulations!</div>
+        <br/>
+        <div class="scenario-objectives">In this scenario, you explored:</div>
+        <ul>
               <li><span class="scenario-objective">Schema design for a sensor data use case</span></li>
               <li><span class="scenario-objective">Sample sensor data</span></li>
               <li><span class="scenario-objective">CQL queries over sensor data</span></li>
-            </ul>
-
-**Learn more about Cassandra on [datastax.com/dev](https://datastax.com/dev):**
-
-* [Data Modeling by Example](https://www.datastax.com/learn/data-modeling-by-example)
-* [Cassandra Fundamentals](https://datastax.com/learning-series/cassandra-fundamentals)
-
+        </ul>
+        <div class="resources">Learn more about Cassandra on [datastax.com/dev](https://datastax.com/dev):</div>
+        <ul>
+              <li><span class="resource"><a href="https://www.datastax.com/learn/data-modeling-by-example" target="_blank">Data Modeling by Example</a></span></li>
+              <li><span class="resource"><a href="https://datastax.com/learning-series/cassandra-fundamentals" target="_blank">Cassandra Fundamentals</a></span></li>
+        </ul>
       </div>
      </div>
     </div>
