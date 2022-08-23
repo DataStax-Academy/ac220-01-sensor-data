@@ -1,4 +1,5 @@
 tasks:
+  - before: printf 'unset JAVA_TOOL_OPTIONS" >> $HOME/.bashrc && exit
   - name: install-dependencies
     init: |
       docker pull cassandra:4.0
@@ -10,7 +11,6 @@ tasks:
                  -v ${PWD}/config/cassandra-rackdc.properties:/etc/cassandra/cassandra-rackdc.properties cassandra:4.0
       curl -Ls "https://dtsx.io/get-astra-cli" | bash >> ./install.log
       source /home/gitpod/.astra/cli/astra-init.sh
-      unset JAVA_TOOL_OPTIONS
 ports:
   - port: 9042
     onOpen: ignore
