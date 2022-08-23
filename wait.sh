@@ -8,7 +8,7 @@ echo " ██║  ██║██╔══██║   ██║   ██╔═�
 echo " ██████╔╝██║  ██║   ██║   ██║  ██║███████║   ██║   ██║  ██║██╔╝ ██╗ "
 echo " ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ "
 echo ""
-echo "Choose Astra DB or Cassandra on the left panel to start."
+echo "<---------- Choose Astra DB or Cassandra on the left panel to start."
 
 curl -Ls "https://dtsx.io/get-astra-cli" | bash >> ./install.log
 
