@@ -8,7 +8,12 @@ echo " ██║  ██║██╔══██║   ██║   ██╔═�
 echo " ██████╔╝██║  ██║   ██║   ██║  ██║███████║   ██║   ██║  ██║██╔╝ ██╗ "
 echo " ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ "
 echo ""
-echo "<---------- Choose Astra DB or Cassandra on the left panel to start."
+
+echo -n 'Preparing your environment ...'; 
+timeout 60 bash -c 'until cqlsh -e "describe cluster" >/dev/null 2>&1; do sleep 2; echo -n "."; done'; 
+echo -n 'Your environment is ready!'
+
+echo "Choose Astra DB or Cassandra on the left panel to start."
 
 #curl -Ls "https://dtsx.io/get-astra-cli" | bash >> ./install.log
 
