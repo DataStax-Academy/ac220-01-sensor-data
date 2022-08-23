@@ -26,7 +26,7 @@
               <li><span class="scenario-objective">Sample sensor data</span></li>
               <li><span class="scenario-objective">CQL queries over sensor data</span></li>
         </ul>
-        <div class="resources">Learn more about Cassandra on [datastax.com/dev](https://datastax.com/dev):</div>
+        <div class="resources">Learn more about Cassandra on <a href="https://datastax.com/dev" target="_blank">datastax.com/dev</a>:</div>
         <ul>
               <li><span class="resource"><a href="https://www.datastax.com/learn/data-modeling-by-example" target="_blank">Data Modeling by Example</a></span></li>
               <li><span class="resource"><a href="https://datastax.com/learning-series/cassandra-fundamentals" target="_blank">Cassandra Fundamentals</a></span></li>
