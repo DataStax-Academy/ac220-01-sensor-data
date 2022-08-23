@@ -22,7 +22,7 @@
 
 ✅ Create table `networks`:
 ```
-CREATE TABLE networks IF NOT EXISTS (
+CREATE TABLE IF NOT EXISTS networks (
   bucket TEXT,
   name TEXT,
   description TEXT,
@@ -34,7 +34,7 @@ CREATE TABLE networks IF NOT EXISTS (
 
 ✅ Create table `temperatures_by_network`:
 ```
-CREATE TABLE temperatures_by_network IF NOT EXISTS (
+CREATE TABLE IF NOT EXISTS temperatures_by_network (
   network TEXT,
   week DATE,
   date_hour TIMESTAMP,
@@ -48,7 +48,7 @@ CREATE TABLE temperatures_by_network IF NOT EXISTS (
 
 ✅ Create table `sensors_by_network`:
 ```
-CREATE TABLE sensors_by_network IF NOT EXISTS (
+CREATE TABLE IF NOT EXISTS sensors_by_network (
   network TEXT,
   sensor TEXT,
   latitude DECIMAL,
@@ -61,7 +61,7 @@ CREATE TABLE sensors_by_network IF NOT EXISTS (
 
 ✅ Create table `temperatures_by_sensor`:
 ```
-CREATE TABLE temperatures_by_sensor IF NOT EXISTS (
+CREATE TABLE IF NOT EXISTS temperatures_by_sensor (
   sensor TEXT,
   date DATE,
   timestamp TIMESTAMP,
