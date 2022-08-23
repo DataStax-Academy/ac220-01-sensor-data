@@ -49,10 +49,10 @@ SELECT * FROM temperatures_by_sensor;
 
 <!-- NAVIGATION -->
 <div id="navigation-bottom" class="navigation-bottom">
- <a href='command:katapod.loadPage?[{"step":"intro"}]'
+ <a href='command:katapod.loadPage?[{"step":"step2"}]'
    class="btn btn-dark navigation-bottom-left">⬅️ Back
  </a>
- <a href='command:katapod.loadPage?[{"step":"step3"}]'
+ <a href='command:katapod.loadPage?[{"step":"step4"}]'
     class="btn btn-dark navigation-bottom-right">Next ➡️
   </a>
 </div>
