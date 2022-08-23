@@ -18,7 +18,7 @@
 
 <!-- CONTENT -->
 
-<p class="step-title">Create tables</p>
+<div class="step-title">Create tables</div>
 
 ✅ Create table `networks`:
 ```
