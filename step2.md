@@ -84,4 +84,3 @@ DESCRIBE TABLES;
     class="btn btn-dark navigation-bottom-right">Next ➡️
   </a>
 </div>
-<br/>

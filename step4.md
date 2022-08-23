@@ -43,4 +43,4 @@ WHERE bucket = 'all';
     class="btn btn-dark navigation-bottom-right">Next ➡️
   </a>
 </div>
-<br/>
+

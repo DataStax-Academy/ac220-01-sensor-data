@@ -43,4 +43,4 @@ WHERE sensor = 's1003'
     class="btn btn-dark navigation-bottom-right">Next ➡️
   </a>
 </div>
-<br/>
+

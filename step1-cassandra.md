@@ -60,4 +60,3 @@ USE sensor_data;
     class="btn btn-dark navigation-bottom-right">Next ➡️
   </a>
 </div>
-<br/>

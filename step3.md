@@ -56,4 +56,3 @@ SELECT * FROM temperatures_by_sensor;
     class="btn btn-dark navigation-bottom-right">Next ➡️
   </a>
 </div>
-<br/>

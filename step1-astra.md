@@ -110,4 +110,4 @@ astra db cqlsh ac201 -k sensor_data
     class="btn btn-dark navigation-bottom-right">Next ➡️
   </a>
 </div>
-<br/>
+
