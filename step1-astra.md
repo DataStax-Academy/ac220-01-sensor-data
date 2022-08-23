@@ -18,46 +18,23 @@
 
 <!-- CONTENT -->
 
-<div class="step-title">Create Astra Database</div>
+<div class="step-title">Connect to Astra DB and create a database</div>
 
-- **✅ Step 1a: Create Astra Account (if needed)**
+✅ Create an application token to access Astra. Skip this step is you already have a token.
 
-> If you already have your token go to step **1c**
+<ol>
+  <li>Sign in (or sign up) to your Astra account at <a href="https://astra.datastax.com" target="_blank">astra.datastax.com</a></li>
+  <li>Create an application token by following <a href="https://awesome-astra.github.io/docs/pages/astra/create-token/" target="_blank">these instructions</a></li>
+</ol>
 
-<a href="https://astra.datastax.com" target="_blank"  class="btn btn-dark">
-Open DataStax Astra
-</a>
+You can reuse the same token in our other scenarios, too.
 
-- Once you signed in there is no need to create a database from the user interface, simply create tken.
-
-- **✅ Step 1b: Create Astra Token (if needed)**
-
-> If you already have your token go to step **1c**
-
+✅ Setup Astra CLI by providing your application token:
 ```
-gp preview https://awesome-astra.github.io/docs/pages/astra/create-token/
-```
-
-- **✅ Step 1c: Setup your environment**
-
-Configure the shell and initialize the cli with `astra-setup`
-
-```
-source /home/gitpod/.astra/cli/astra-init.sh
-unset JAVA_TOOL_OPTIONS
 astra setup
 ```
 
-- Copy paste your Astra token as show below.
 
-![](https://github.com/datastax/astra-sdk-java/blob/main/docs/img/astra-shell-config.png?raw=true")
-
-Ok you are good the CLI should work now 
-
-```
-clear
-astra --version
-```
 
 
 - **✅ Step 1d: List your databases**
