@@ -18,35 +18,22 @@
 
 <!-- CONTENT -->
 
-<div class="step-title">Start Cassandra</div>
+<div class="step-title">Connect to Cassandra and create a keyspace</div>
 
-During this chapter we will validate that Apache Cassandra™ is running for you and will create the dedicated keyspace for our scenario.
-
-- **✅ Step 1a: Validate that Cassandra is `Ready`**
-
+✅ Start the CQL shell:
 ```
-chmod 700 ./wait-cassandra.sh
-./wait-cassandra.sh
+cqlsh
 ```
 
-- **✅ Step 1b: Start the CQL shell**
-
+✅ Create the `sensor_data` keyspace:
 ```
-cqlsh 2>/dev/null
-```
-
-- **✅ Step 1c: Create the `sensor_data` keyspace:**
-
-Notice that we are working with a single node with datacenter name `DC-Houston`
-```
-CREATE KEYSPACE IF NOT EXISTS sensor_data
+CREATE KEYSPACE sensor_data
 WITH replication = {
   'class': 'NetworkTopologyStrategy', 
   'DC-Houston': 1 };
 ```
 
-- **✅ Step 1d: Set the current working keyspace:**
-
+✅ Set the current working keyspace:
 ```
 USE sensor_data;
 ```
