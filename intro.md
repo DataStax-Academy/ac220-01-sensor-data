@@ -35,6 +35,7 @@
             </div>
             <div class="astradb-line1">Cloud database service built on Apache Cassandra</div>
             <div class="astradb-line2">You will connect to a free cloud database service that runs a Cassandra cluster for you.</div>
+            <br/>
             <a href='command:katapod.loadPage?[{"step":"step1-astra"}]' class="btn btn-primary btn-astra">
               Start with Astra DB
             </a>
