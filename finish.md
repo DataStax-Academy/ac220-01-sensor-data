@@ -8,7 +8,7 @@
 <!-- NAVIGATION -->
 <div id="navigation-top" class="navigation-top">
  <a href='command:katapod.loadPage?[{"step":"step7"}]'
-   class="btn btn-dark navigation-top-left">⬅️ Step 7
+   class="btn btn-dark navigation-top-left">⬅️ Back
  </a>
 </div>
 

@@ -8,11 +8,11 @@
 <!-- NAVIGATION -->
 <div id="navigation-top" class="navigation-top">
  <a href='command:katapod.loadPage?[{"step":"intro"}]'
-   class="btn btn-dark navigation-top-left">⬅️ Introduction
+   class="btn btn-dark navigation-top-left">⬅️ Back
  </a>
 <span class="step-count"> Step 1 of 7</span>
  <a href='command:katapod.loadPage?[{"step":"step2"}]' 
-    class="btn btn-dark navigation-top-right">Step 2 ➡️
+    class="btn btn-dark navigation-top-right">Next ➡️
   </a>
 </div>
 
