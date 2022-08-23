@@ -14,5 +14,5 @@ _This scenario is also available on our [https://www.datastax.com/learn/data-mod
 
 Start the scenario with :
 
-[![Open in KataPod](https://github.com/DataStax-Academy/katapod-shared-assets/blob/main/images/open-in-katapod.png?raw=true)](https://gitpod.io/#https://github.com/datastax-academy/ac220-01-sensor-data/)
+[![Open in KataPod](https://github.com/DataStax-Academy/katapod-shared-assets/blob/main/images/open-in-katapod.png?raw=true)](https://gitpod.io/#https://github.com/DataStax-Academy/katapod-scenario-template-new/)
 
