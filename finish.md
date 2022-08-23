@@ -13,7 +13,7 @@
 </div>
 
 <!-- CONTENT -->
-<main style="margin-top:80px">
+<main>
     <br/>
     <div class="container px-4 py-2">
      <div class="row g-4 py-2 row-cols-1 row-cols-lg-1">
