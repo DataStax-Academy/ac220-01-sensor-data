@@ -18,7 +18,7 @@
 
 <!-- CONTENT -->
 
-# Design query Q2
+<div class="step-title">Design query Q2</div>
 
 ✅ Find hourly average temperatures for every sensor in network `forest-net` and date range [`2020-07-05`,`2020-07-06`] within the week of `2020-07-05`; order by date (desc) and hour (desc):
 

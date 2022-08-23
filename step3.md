@@ -18,7 +18,7 @@
 
 <!-- CONTENT -->
 
-# Populate tables
+<div class="step-title">Populate tables</div>
 
 ✅ Execute the CQL script to insert sample data:
 ```

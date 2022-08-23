@@ -18,7 +18,7 @@
 
 <!-- CONTENT -->
 
-# Design query Q1
+<div class="step-title">Design query Q1</div>
 
 ✅ Find information about all networks; order by name (asc):
 

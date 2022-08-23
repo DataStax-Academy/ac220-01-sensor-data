@@ -18,7 +18,7 @@
 
 <!-- CONTENT -->
 
-## Create Astra Database
+<div class="step-title">Create Astra Database</div>
 
 - **✅ Step 1a: Create Astra Account (if needed)**
 

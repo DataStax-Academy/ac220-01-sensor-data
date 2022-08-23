@@ -18,7 +18,7 @@
 
 <!-- CONTENT -->
 
-## Start Cassandra
+<div class="step-title">Start Cassandra</div>
 
 During this chapter we will validate that Apache Cassandra™ is running for you and will create the dedicated keyspace for our scenario.
 

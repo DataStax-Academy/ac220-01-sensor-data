@@ -18,7 +18,7 @@
 
 <!-- CONTENT -->
 
-## Design query Q4
+<div class="step-title">Design query Q4</div>
 
 ✅ Find raw measurements for sensor `s1003` on `2020-07-06`; order by timestamp (desc):
 

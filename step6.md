@@ -18,7 +18,7 @@
 
 <!-- CONTENT -->
 
-# Design query Q3
+<div class="step-title">Design query Q3</div>
 
 ✅ Find information about all sensors in network `forest-net`:
 
