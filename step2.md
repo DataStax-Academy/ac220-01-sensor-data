@@ -18,7 +18,7 @@
 
 <!-- CONTENT -->
 
-## Create schema for keyspace `sensor_data`
+# Create tables
 
 ✅ (a) Create table `networks`:
 ```
