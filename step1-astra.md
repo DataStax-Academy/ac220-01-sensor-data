@@ -34,49 +34,39 @@ You can reuse the same token in our other scenarios, too.
 astra setup
 ```
 
-
-
-
-- **✅ Step 1d: List your databases**
-
+✅ List your existing Astra DB databases:
 ```
 astra db list
 ```
 
-- **✅ Step 1e: Create a database `ac201` with the keyspace `sensor_data`**
-
+✅ Create database `data-modeling` and keyspace `sensor_data` if they do not exist:
 ```
-astra db create ac201 -k sensor_data --if-not-exist
-```
-
-- **✅ Step 1f: Wait for the DB be becomes active**
-
-If you list again the databases you should see the one you just created.
-
-```
-astra db list
+astra db create data-modeling -k sensor_data --if-not-exist
 ```
 
-You can get the details with 
-
+✅ Check the status of database `data-modeling`:
 ```
-astra db get ac201
-```
-
-Wait until the Status is `ACTIVE`
-
-```
-astra db get ac201 | grep Status
+astra db get data-modeling
 ```
 
-- **✅ Step 1g: Start CqlSh against keyspace `sensor_data`**
+✅ If database `data-modeling` exists and has status `HIBERNATED`, resume the database:
+```
+astra db resume data-modeling
+```
+
+✅ If database `data-modeling` has status `RESUMING` or `PENDING`, **wait until the status becomes `ACTIVE`**:
+```
+astra db get data-modeling
+```
+
+✅ Start the CQL shell and connect to database `data-modeling` and keyspace `sensor_data`:
 
 ```
 clear
-astra db cqlsh ac201 -k sensor_data
+astra db cqlsh data-modeling -k sensor_data
 ```
 
-> If the command above fails that mean the database is not ready yet. Wait a few seconds and retry. A new database will take about 1 min to start, it is a 3 nodes cluster.
+If the command fails, please revisit the previous steps to make sure that the database exists and is `ACTIVE` and retry connecting to the database again.
 
 <!-- NAVIGATION -->
 <div id="navigation-bottom" class="navigation-bottom">
