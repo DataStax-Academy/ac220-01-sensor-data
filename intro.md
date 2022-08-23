@@ -11,13 +11,13 @@
     <div class="container px-4 py-2">
      <div class="row g-4 py-2 row-cols-1 row-cols-lg-1">
       <div class="feature col div-choice">
-            <span class="scenario-description">Explore how IoT sensor data can be stored and queried in Cassandra NoSQL database.</span>
+            <div class="scenario-description">Explore how IoT sensor data can be stored and queried in Cassandra NoSQL database.</div>
             <ul>
               <li><span class="scenario-description-attribute">Difficulty</span>: Beginner</li>
               <li><span class="scenario-description-attribute">Time</span>: 15 minutes</li>
               <li><span class="scenario-description-attribute">Prerequisite</span>: <a href="https://www.datastax.com/learn/data-modeling-by-example/sensor-data-model" target="_blank">how to create a data model for temperature monitoring sensor networks</a></li>
             </ul>
-            <span class="scenario-objectives">In this scenario, you will:</span>
+            <div class="scenario-objectives">In this scenario, you will:</div>
             <ul>
               <li><span class="scenario-objective">Create tables for a sensor data use case</span></li>
               <li><span class="scenario-objective">Populate tables with sample sensor data</span></li>
