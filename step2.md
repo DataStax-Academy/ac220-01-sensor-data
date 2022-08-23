@@ -20,8 +20,7 @@
 
 ## Create schema for keyspace `sensor_data`
 
-- **✅ Step 2a: Create table `networks`**
-
+✅ (a) Create table `networks`:
 ```
 CREATE TABLE IF NOT EXISTS networks (
   bucket TEXT,
@@ -33,7 +32,7 @@ CREATE TABLE IF NOT EXISTS networks (
 );
 ```
 
-- **✅ Step 2b: Create table `temperatures_by_network`**
+(b) Create table `temperatures_by_network`:
 
 ```
 CREATE TABLE IF NOT EXISTS temperatures_by_network (
