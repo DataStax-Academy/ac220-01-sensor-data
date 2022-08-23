@@ -35,3 +35,11 @@
      </div>
     </div>
 </main>
+
+<!-- NAVIGATION -->
+<div id="navigation-bottom" class="navigation-bottom">
+ <a href='command:katapod.loadPage?[{"step":"step7"}]'
+   class="btn btn-dark navigation-bottom-left">⬅️ Back
+ </a>
+</div>
+<br/>

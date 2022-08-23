@@ -36,7 +36,11 @@ WHERE bucket = 'all';
 
 <!-- NAVIGATION -->
 <div id="navigation-bottom" class="navigation-bottom">
- <a href='command:katapod.loadPage?[{"step":"step5"}]' 
-    class="btn btn-primary btn-astra navigation-bottom-right">CONTINUE ➡️
+ <a href='command:katapod.loadPage?[{"step":"step3"}]'
+   class="btn btn-dark navigation-bottom-left">⬅️ Back
+ </a>
+ <a href='command:katapod.loadPage?[{"step":"step5"}]'
+    class="btn btn-dark navigation-bottom-right">Next ➡️
   </a>
 </div>
+<br/>

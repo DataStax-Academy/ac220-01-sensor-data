@@ -36,7 +36,11 @@ WHERE sensor = 's1003'
 
 <!-- NAVIGATION -->
 <div id="navigation-bottom" class="navigation-bottom">
+ <a href='command:katapod.loadPage?[{"step":"step6"}]'
+   class="btn btn-dark navigation-bottom-left">⬅️ Back
+ </a>
  <a href='command:katapod.loadPage?[{"step":"finish"}]'
-    class="btn btn-primary btn-astra navigation-bottom-right">CONTINUE ➡️
+    class="btn btn-dark navigation-bottom-right">Next ➡️
   </a>
 </div>
+<br/>
