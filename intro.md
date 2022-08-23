@@ -46,6 +46,7 @@
             </div>
             <div class="cassandra-line1">Local deployment of open-source Apache Cassandra</div>
             <div class="cassandra-line2">You will install, start and use a Cassandra cluster locally in Gitpod using Docker.</div>
+            <br/>
             <a href='command:katapod.loadPage?[{"step":"step1-cassandra"}]' class="btn btn-primary btn-cassandra">
               Start with Cassandra
             </a>   
