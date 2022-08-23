@@ -78,6 +78,6 @@ DESCRIBE TABLES;
 <!-- NAVIGATION -->
 <div id="navigation-bottom" class="navigation-bottom">
  <a href='command:katapod.loadPage?[{"step":"step3"}]'
-    class="btn btn-dark navigation-bottom-right">CONTINUE ➡️
+    class="btn btn-dark navigation-bottom-right">Next ➡️
   </a>
 </div>
