@@ -1,6 +1,6 @@
 # Katapod Scenario Template
 
-<hr/>
+<hr/><hr/><hr/>
 
 # Sensor Data Modeling
 
