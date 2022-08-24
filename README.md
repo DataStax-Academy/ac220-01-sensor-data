@@ -1,6 +1,7 @@
 # Katapod Scenario Template
 
 <hr/>
+
 # Sensor Data Modeling
 
 ## Learn how to create a data model for temperature monitoring sensor networks
