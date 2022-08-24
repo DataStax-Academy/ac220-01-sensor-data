@@ -4,10 +4,9 @@
 
 ## Sensor Data Modeling
 
-Learn how to create a data model for temperature monitoring sensor networks.
+**Learn how to create a data model for temperature monitoring sensor networks**
 
 **In this scenario, you will:**
-* Learn how to create a data model for temperature monitoring sensor networks
 * Create tables for a sensor data use case 
 * Populate tables with sample sensor data
 * Design and execute CQL queries over sensor data
