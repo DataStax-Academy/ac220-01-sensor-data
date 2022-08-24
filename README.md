@@ -2,9 +2,9 @@
 
 <hr/>
 
-## Sensor Data Modeling
+# Sensor Data Modeling
 
-**Learn how to create a data model for temperature monitoring sensor networks.**
+## Learn how to create a data model for temperature monitoring sensor networks.**
 
 **In this scenario, you will:**
 * Create tables for a sensor data use case 
