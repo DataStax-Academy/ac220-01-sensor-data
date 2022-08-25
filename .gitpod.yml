@@ -1,8 +1,9 @@
 tasks:
-  - before: |
-      printf 'export PATH="$HOME%s:$PATH"\n' "/.astra/cli" >> $HOME/.bashrc
-      printf 'unset JAVA_TOOL_OPTIONS\n' >> $HOME/.bashrc
   - name: install-dependencies
+    before: |
+      curl -Ls "https://dtsx.io/get-astra-cli" | bash >> ./install.log
+      printf 'export PATH="$HOME%s:$PATH"\n' "/.astra/cli" >> $HOME/.bashrc
+      printf 'unset JAVA_TOOL_OPTIONS\n' >> $HOME/.bashrc      
     init: |
       docker pull cassandra:4.0
       pip install -U cqlsh
@@ -11,7 +12,6 @@ tasks:
                  --name Cassandra \
                  -v ${PWD}/config/cassandra.yaml:/etc/cassandra/cassandra.yaml \
                  -v ${PWD}/config/cassandra-rackdc.properties:/etc/cassandra/cassandra-rackdc.properties cassandra:4.0
-      curl -Ls "https://dtsx.io/get-astra-cli" | bash >> ./install.log
       source /home/gitpod/.astra/cli/astra-init.sh
 ports:
   - port: 9042
