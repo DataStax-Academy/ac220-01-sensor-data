@@ -1,5 +1,7 @@
 tasks:
-  - before: printf 'unset JAVA_TOOL_OPTIONS' >> $HOME/.bashrc && exit
+  - before: |
+      printf 'export PATH="$HOME%s:$PATH"\n' "/.astra/cli" >> $HOME/.bashrc
+      printf 'unset JAVA_TOOL_OPTIONS\n' >> $HOME/.bashrc
   - name: install-dependencies
     init: |
       docker pull cassandra:4.0
