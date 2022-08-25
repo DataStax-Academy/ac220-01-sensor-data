@@ -20,6 +20,11 @@
 
 <div class="step-title">Connect to Cassandra and create a keyspace</div>
 
+✅ Start Cassandra:
+```
+./cassandra
+```
+
 ✅ Start the CQL shell:
 ```
 cqlsh
